@@ -12,9 +12,9 @@
             <!-- <br /> -->
             <p><span style="color: #56b8e6">(Vee</span>spatial)</p>
             <p>
-              I'm a Software Engineer and a GIS Expert (7+ years of experience),
+              I'm a Software Engineer and a GIS Expert (8+ years of experience),
               with a passion for revolutionizing industries through innovative
-              software solutions & Location-Based Solutions.
+              software solutions & geospatial solutions.
             </p>
             <div class="social-links d-flex mt-3">
               <a href="https://twitter.com/victor_gis" class="twitter"
@@ -37,7 +37,8 @@
                 ><i class="fa-brands fa-github"></i
               ></a>
               <a href="https://patreon.com/veespatial" class="patreon"
-                ><i class="fa-brands fa-patreon"></i></a>
+                ><i class="fa-brands fa-patreon"></i
+              ></a>
             </div>
           </div>
 
@@ -46,19 +47,21 @@
             <ul>
               <li><i class="fa-solid fa-minus"></i> <a href="/">Home</a></li>
               <li>
-                <i class="fa-solid fa-minus"></i> <a href="/portfolio">Portfolio</a>
+                <i class="fa-solid fa-minus"></i>
+                <a href="/portfolio">Portfolio</a>
               </li>
               <li>
                 <i class="fa-solid fa-minus"></i>
                 <a href="/about">About Me</a>
               </li>
               <li>
-                <i class="fa-solid fa-minus"></i> <a href="/resume">My Resume</a>
+                <i class="fa-solid fa-minus"></i>
+                <a href="/resume">My Resume</a>
               </li>
               <li>
-                <i class="fa-solid fa-minus"></i> <a href="/contact">Contact Me</a>
+                <i class="fa-solid fa-minus"></i>
+                <a href="/contact">Contact Me</a>
               </li>
-
             </ul>
           </div>
 
