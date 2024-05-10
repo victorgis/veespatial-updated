@@ -1,0 +1,56 @@
+<template>
+  <div class="parent">
+    <Header />
+    <div class="main">
+      <section class="sd">
+        <img src="./img/sd7.jpeg" width="600px" class="img-fluid" alt="" />
+        <div class="details">
+          <small>WEB</small>
+          <p><b>Travel Journal</b></p>
+          <p>Built with React</p>
+        </div>
+        <div>
+          <a href="https://veespatial02.netlify.app/" target="_blank">
+            <button class="vee-btn">
+              Visit&nbsp;<i class="bx bx-link-external"></i></button
+          ></a>
+          <br />
+          <router-link to="/portfolio"
+            ><button class="vee-btn mt-3">
+              Go back <i class="fa-solid fa-rotate-left"></i></button
+          ></router-link>
+        </div>
+      </section>
+    </div>
+    <Footer />
+  </div>
+</template>
+
+<script>
+import Header from "../../components/Header.vue";
+import Footer from "../../components/Footer.vue";
+
+export default {
+  name: "VeespatialUpdatedSd1",
+  components: {
+    Header,
+    Footer,
+  },
+  data() {
+    return {};
+  },
+
+  mounted() {},
+
+  methods: {},
+};
+</script>
+
+<style scoped>
+.sd {
+  padding: 40px 0;
+}
+.details {
+  margin: 40px 0;
+}
+</style>
