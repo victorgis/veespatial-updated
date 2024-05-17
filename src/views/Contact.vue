@@ -39,7 +39,7 @@
             </div>
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
-              <form class="php-email-form" netlify netlify-honeypot="bot-field">
+              <form class="php-email-form" netlify netlify-honeypot="bot-field" action="/contact">
                 <div class="row">
                   <div class="col-md-6 form-group">
                     <input
