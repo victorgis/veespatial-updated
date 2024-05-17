@@ -39,7 +39,7 @@
             </div>
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
-              <form name="contact" class="php-email-form" netlify>
+              <form name="contact" class="php-email-form" method="POST" data-netlify="true">
                 <div class="row">
                   <div class="col-md-6 form-group">
                     <input
