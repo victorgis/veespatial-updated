@@ -39,7 +39,12 @@
             </div>
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
-              <form class="php-email-form" netlify netlify-honeypot="bot-field" action="/contact">
+              <form
+                class="php-email-form"
+                data-netlify="true"
+                name="contact"
+                @submit.prevent="handleSubmit"
+              >
                 <div class="row">
                   <div class="col-md-6 form-group">
                     <input
@@ -92,7 +97,6 @@
                   <button class="vee-btn" type="submit">Send Message</button>
                 </div>
               </form>
-              
             </div>
             <!-- End Contact Form -->
           </div>
@@ -113,13 +117,28 @@ export default {
     Header,
     Footer,
   },
-  data() {
-    return {};
+  methods: {
+    handleSubmit(event) {
+      const form = event.target;
+      const formData = new FormData(form);
+
+      console.log(formData)
+
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
+      })
+        .then(() => {
+          // Display success message
+          document.querySelector('.sent-message').style.display = 'block';
+        })
+        .catch((error) => {
+          // Display error message
+          document.querySelector('.error-message').style.display = 'block';
+        });
+    },
   },
-
-  mounted() {},
-
-  methods: {},
 };
 </script>
 
