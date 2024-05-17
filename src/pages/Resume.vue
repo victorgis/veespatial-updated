@@ -9,10 +9,22 @@
           </p>
         </div>
         <div class="resume-list">
-          <a href="https://drive.google.com/file/d/1UZZ5ZMJKw656OAUvrqb3uYiZzkUzAqIt/view?usp=sharing"><div class="resume-list-box">Chief Technology Officer</div></a>
-          <a href="https://drive.google.com/file/d/1B7hocK9fvPhVGX0sFODH3GVuWPpSo9VM/view?usp=drive_link"><div class="resume-list-box">Software Developer</div></a>
-          <a href="https://drive.google.com/file/d/1B7hocK9fvPhVGX0sFODH3GVuWPpSo9VM/view?usp=drive_link"><div class="resume-list-box">GIS Developer</div></a>
-          <a href="https://drive.google.com/file/d/1HyzWpkvDFsMh8EYhCs9CHmRiqklRzDwr/view?usp=sharing"><div class="resume-list-box">GIS Analyst</div></a>
+          <a
+            href="https://drive.google.com/file/d/1UZZ5ZMJKw656OAUvrqb3uYiZzkUzAqIt/view?usp=sharing"
+            ><div class="resume-list-box">Chief Technology Officer</div></a
+          >
+          <a
+            href="https://drive.google.com/file/d/1B7hocK9fvPhVGX0sFODH3GVuWPpSo9VM/view?usp=drive_link"
+            ><div class="resume-list-box">Software Developer</div></a
+          >
+          <a
+            href="https://drive.google.com/file/d/1dP1Ne9hkqX0lyCbRb7pD8JHPbGPpUZ-f/view?usp=sharing"
+            ><div class="resume-list-box">GIS Developer</div></a
+          >
+          <a
+            href="https://drive.google.com/file/d/1HyzWpkvDFsMh8EYhCs9CHmRiqklRzDwr/view?usp=sharing"
+            ><div class="resume-list-box">GIS Analyst</div></a
+          >
           <!-- <a href=""><div class="resume-list-box">Frontend Developer</div></a> -->
         </div>
         <div>
