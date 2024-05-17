@@ -4,6 +4,7 @@
     <div class="main">
       <Hero />
       <Portfolio />
+      <Action />
       <Technologies />
     </div>
     <Footer />
@@ -15,6 +16,7 @@ import Header from "../components/Header.vue";
 import Footer from "../components/Footer.vue";
 import Hero from "../components/Hero.vue";
 import Portfolio from "../components/Portfolio.vue";
+import Action from "../components/Get-in-touch.vue";
 import Technologies from "../components/Technologies.vue";
 
 export default {
@@ -24,6 +26,7 @@ export default {
     Footer,
     Hero,
     Portfolio,
+    Action,
     Technologies,
   },
   data() {
