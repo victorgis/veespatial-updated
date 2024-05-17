@@ -73,6 +73,7 @@ export default {
     url("../assets/img/weatherApp-header.jpg") center center;
   background-size: cover;
   padding: 100px 0;
+  background-attachment: fixed;
 }
 
 .section-details-img {
