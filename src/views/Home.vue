@@ -4,7 +4,7 @@
     <div class="main">
       <Hero />
       <Portfolio />
-      <Action />
+      <!-- <Action /> -->
       <Technologies />
     </div>
     <Footer />

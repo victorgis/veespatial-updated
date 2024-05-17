@@ -1,5 +1,8 @@
 <template>
   <div class="parent">
+    <div v-if="isLoading">
+      <Loader />
+    </div>
     <Header />
     <div class="main">
       <section id="contact" class="contact">
@@ -41,9 +44,10 @@
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
               <form
                 class="php-email-form"
-                data-netlify="true"
                 name="contact"
-                @submit.prevent="handleSubmit"
+                method="post"
+                data-netlify="true"
+                @submit="handleSubmit"
               >
                 <div class="row">
                   <div class="col-md-6 form-group">
@@ -53,6 +57,7 @@
                       class="form-control"
                       id="name"
                       placeholder="Your Name"
+                      v-model="target.name"
                       required
                     />
                   </div>
@@ -62,6 +67,7 @@
                       class="form-control"
                       name="email"
                       id="email"
+                      v-model="target.email"
                       placeholder="Your Email"
                       required
                     />
@@ -73,6 +79,7 @@
                     class="form-control"
                     name="subject"
                     id="subject"
+                    v-model="target.subject"
                     placeholder="Subject"
                     required
                   />
@@ -82,7 +89,9 @@
                     class="form-control"
                     name="message"
                     rows="5"
+                    id="message"
                     placeholder="Message"
+                    v-model="target.message"
                     required
                   ></textarea>
                 </div>
@@ -110,32 +119,60 @@
 <script>
 import Header from "../components/Header.vue";
 import Footer from "../components/Footer.vue";
+import Loader from "../components/Loader.vue";
 
 export default {
   name: "VeespatialUpdatedHome",
   components: {
     Header,
     Footer,
+    Loader,
+  },
+  data() {
+    return {
+      isLoading: false,
+      target: {
+        name: "",
+        email: "",
+        subject: "",
+        message: "",
+      },
+    };
   },
   methods: {
     handleSubmit(event) {
-      const form = event.target;
-      const formData = new FormData(form);
+      event.preventDefault();
+      this.isLoading = true;
+      const myForm = this.target;
 
-      console.log(formData)
-
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData).toString(),
-      })
-        .then(() => {
-          // Display success message
-          document.querySelector('.sent-message').style.display = 'block';
+      // Make the fetch request
+      const url =
+        "https://childsolidarity-contact-page.onrender.com/api/precisegis/contacts";
+      const options = {
+        method: "POST", // HTTP method
+        headers: {
+          "Content-Type": "application/json", // Set the content type to JSON
+        },
+        body: JSON.stringify(myForm), // Convert data to JSON string
+      };
+      fetch(url, options)
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error(
+              "Network response was not ok " + response.statusText
+            );
+          }
+          return response.json();
+        })
+        .then((data) => {
+          console.log("Success:", data);
+          
+          this.isLoading = false;
+          alert("Message Sent")
+          window.location.reload();
         })
         .catch((error) => {
-          // Display error message
-          document.querySelector('.error-message').style.display = 'block';
+          console.error("Error:", error);
         });
     },
   },
