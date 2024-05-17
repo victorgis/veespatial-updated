@@ -39,7 +39,7 @@
             </div>
 
             <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
-              <form class="php-email-form" data-netlify="true">
+              <form class="php-email-form" role="form" data-netlify="true">
                 <div class="row">
                   <div class="col-md-6 form-group">
                     <input
@@ -88,9 +88,9 @@
                     Your message has been sent. Thank you!
                   </div>
                 </div>
-                <div class="text-center">
-                  <button class="vee-btn" type="submit">Send Message</button>
-                </div>
+                <!-- <div class=""> -->
+                  <button class="vee-btn text-center" type="submit">Send Message</button>
+                <!-- </div> -->
               </form>
             </div>
             <!-- End Contact Form -->
