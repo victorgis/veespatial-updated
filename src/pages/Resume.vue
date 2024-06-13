@@ -22,6 +22,10 @@
             ><div class="resume-list-box">GIS Developer</div></a
           >
           <a
+            href="https://drive.google.com/file/d/1bx7YgyKvAGnqvioCuv1JEwv96OdM22Tz/view?usp=drive_link"
+            ><div class="resume-list-box">GIS Backend Developer</div></a
+          >
+          <a
             href="https://drive.google.com/file/d/1HyzWpkvDFsMh8EYhCs9CHmRiqklRzDwr/view?usp=sharing"
             ><div class="resume-list-box">GIS Analyst</div></a
           >
