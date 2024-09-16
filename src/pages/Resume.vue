@@ -10,12 +10,16 @@
         </div>
         <div class="resume-list">
           <a
-            href="https://drive.google.com/file/d/1UZZ5ZMJKw656OAUvrqb3uYiZzkUzAqIt/view?usp=sharing"
-            ><div class="resume-list-box">Chief Technology Officer</div></a
+            href="https://drive.google.com/file/d/1xsgGrNkPE5dBepxqmTnEpJvpVqs4lHxn/view?usp=sharing"
+            ><div class="resume-list-box">Mobile App Cross-platform Engineer</div></a
           >
           <a
-            href="https://drive.google.com/file/d/1B7hocK9fvPhVGX0sFODH3GVuWPpSo9VM/view?usp=drive_link"
-            ><div class="resume-list-box">Software Developer</div></a
+          href="https://drive.google.com/file/d/1B7hocK9fvPhVGX0sFODH3GVuWPpSo9VM/view?usp=drive_link"
+          ><div class="resume-list-box">Software Engineer</div></a
+          >
+          <a
+            href="https://drive.google.com/file/d/1UZZ5ZMJKw656OAUvrqb3uYiZzkUzAqIt/view?usp=sharing"
+            ><div class="resume-list-box">Chief Technology Officer</div></a
           >
           <a
             href="https://drive.google.com/file/d/1dP1Ne9hkqX0lyCbRb7pD8JHPbGPpUZ-f/view?usp=sharing"

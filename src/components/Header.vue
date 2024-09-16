@@ -3,7 +3,8 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <router-link class="navbar-brand" to="/">
-          <img src="../assets/favicon.png" alt="" />
+          <!-- <img src="../assets/favicon.png" alt="" /> -->
+           <h1>VS</h1>
         </router-link>
         <button
           class="navbar-toggler"

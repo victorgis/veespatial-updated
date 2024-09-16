@@ -6,9 +6,12 @@
     <div class="section-details-img">
       <!-- <img src="" alt="" /> -->
       <Tooltip text="JavaScript"><i class="fa-brands fa-js"></i></Tooltip>
-      <Tooltip text="Python"><i class="fa-brands fa-python"></i></Tooltip>
-      <Tooltip text="Vue JS"><i class="fa-brands fa-vuejs"></i></Tooltip>
+      <Tooltip text="TypeScript"><i class="bx bxl-typescript"></i></Tooltip>
+      <Tooltip text="React-native"><img src="../assets/tech-img/reactnative.png" width="85px" alt=""
+      /></Tooltip>
       <Tooltip text="React JS"><i class="fa-brands fa-react"></i></Tooltip>
+      <Tooltip text="Vue JS"><i class="fa-brands fa-vuejs"></i></Tooltip>
+      <Tooltip text="Python"><i class="fa-brands fa-python"></i></Tooltip>
       <Tooltip text="Node JS"><i class="fa-brands fa-node"></i></Tooltip>
       <Tooltip text="ArcGIS"
         ><img src="../assets/tech-img/esri.png" width="85px" alt=""
@@ -17,7 +20,7 @@
         ><img src="../assets/tech-img/qgis.png" width="85px" alt=""
       /></Tooltip>
       <Tooltip text="Stripe"><i class="fa-brands fa-cc-stripe"></i></Tooltip>
-      <Tooltip text="TypeScript"><i class="bx bxl-typescript"></i></Tooltip>
+      
       <Tooltip text="HTML"><i class="bx bxl-html5"></i></Tooltip>
       <Tooltip text="Tailwind CSS"><i class="bx bxl-tailwind-css"></i></Tooltip>
       <Tooltip text="CSS"><i class="bx bxl-css3"></i></Tooltip>
