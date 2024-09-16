@@ -22,18 +22,16 @@
             :key="index"
             v-show="activeTab === index"
           >
-            <div v-if="activeTab == '0'">
+            <div v-if="activeTab == '0'"><MobileDevelopment /></div>
+            <div v-if="activeTab == '1'">
               <SoftwareDevelopment />
             </div>
-            <div v-if="activeTab == '1'">
+            <div v-if="activeTab == '2'">
               <GISDevelopment />
             </div>
-            <div v-if="activeTab == '2'">
+            <div v-if="activeTab == '3'">
               <GISAnalytics />
             </div>
-            <!-- <div v-if="activeTab == '3'">
-              Tab 4
-            </div> -->
           </div>
         </div>
       </section>
@@ -48,6 +46,7 @@ import Footer from "../components/Footer.vue";
 import SoftwareDevelopment from "../portfolio-items/software-development/Software-development.vue";
 import GISDevelopment from "../portfolio-items/gis-development/Gis-development.vue";
 import GISAnalytics from "../portfolio-items/gis-analytics/Gis-analytics.vue";
+import MobileDevelopment from "../portfolio-items/mobile-app-development/Mobile-development.vue";
 
 export default {
   name: "VeespatialUpdatedPortfolio",
@@ -57,15 +56,19 @@ export default {
     SoftwareDevelopment,
     GISDevelopment,
     GISAnalytics,
+    MobileDevelopment,
   },
   data() {
     return {
       activeTab: 0,
       tabs: [
-        { name: "Software Developer", content: "Content for Tab 1" },
-        { name: "GIS Developer", content: "Content for Tab 2" },
-        { name: "GIS Analyst", content: "Content for Tab 3" },
-        // { name: "Data Analyst", content: "Content for Tab 4" },
+        {
+          name: "Mobile App Cross-Platform Developer",
+          content: "Content for Tab 1",
+        },
+        { name: "Software Developer", content: "Content for Tab 2" },
+        { name: "GIS Developer", content: "Content for Tab 3" },
+        { name: "GIS Analyst", content: "Content for Tab 4" },
       ],
     };
   },
