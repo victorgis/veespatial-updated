@@ -31,7 +31,7 @@
             <li class="nav-item">
               <a
                 class="nav-link"
-                href="https://www.patreon.com/veespatial"
+                href="https://www.patreon.com/c/veespatial"
                 target="_blank"
                 >Patreon</a
               >

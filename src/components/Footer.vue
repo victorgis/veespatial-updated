@@ -36,7 +36,7 @@
               <a href="https://github.com/victorgis" class="github"
                 ><i class="fa-brands fa-github"></i
               ></a>
-              <a href="https://patreon.com/veespatial" class="patreon"
+              <a href="https://patreon.com/c/veespatial" class="patreon"
                 ><i class="fa-brands fa-patreon"></i
               ></a>
             </div>
