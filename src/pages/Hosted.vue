@@ -3,7 +3,10 @@
     <Header />
     <div class="main">
       <section class="hosted">
-        
+        <img src="../assets/hosted/avatar.png">
+        <img src="../assets/hosted/urbanExplorer1.png">
+        <img src="../assets/hosted/urbanExplorer2.png">
+
       </section>
     </div>
     <Footer />
