@@ -3,6 +3,7 @@
     <h2>Mobile App Cross-platform Development</h2>
     <div class="site-buckets">
       <div class="site-bucket-img">
+        <p>CrossSafe App</p>
         <img src="./img/md-1.jpg" class="img-fluid" alt="" />
         <div class="overlay">
           <router-link to="">
@@ -11,10 +12,11 @@
         </div>
       </div>
       <div class="site-bucket-img">
+        <p>Urban Explorer</p>
         <img src="./img/md-2.png" class="img-fluid" alt="" />
         <div class="overlay">
           <a href="../../assets/hosted/urban-explorer.apk">
-            <p class="details">Download</p></a
+            <p class="details">Download Urban Explorer</p></a
           >
         </div>
       </div>
