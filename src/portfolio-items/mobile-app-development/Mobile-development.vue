@@ -1,16 +1,22 @@
 <template>
   <div>
-    <h2>
-      Mobile App Cross-platform Development
-    </h2>
+    <h2>Mobile App Cross-platform Development</h2>
     <div class="site-buckets">
       <div class="site-bucket-img">
         <img src="./img/md-1.jpg" class="img-fluid" alt="" />
-        <!-- <div class="overlay">
-          <router-link to="portfolio/sd-9">
-            <p class="details">Open</p></router-link
+        <div class="overlay">
+          <router-link to="">
+            <p class="details"></p></router-link
           >
-        </div> -->
+        </div>
+      </div>
+      <div class="site-bucket-img">
+        <img src="./img/md-2.png" class="img-fluid" alt="" />
+        <div class="overlay">
+          <a href="../../assets/hosted/urban-explorer.apk">
+            <p class="details">Download</p></a
+          >
+        </div>
       </div>
       <!-- <div class="site-bucket-img">
         <img src="./img/md-2.png" class="img-fluid" alt="" />
@@ -49,6 +55,7 @@ export default {
 .site-bucket-img {
   position: relative;
   display: inline-block;
+  border: 1px solid #262626;
 }
 .site-bucket-img img {
   display: block;
