@@ -14,6 +14,25 @@
       <div class="site-bucket-img">
         <img src="./img/ga8.jpeg" class="img-fluid" alt="" />
       </div>
+
+      <div class="site-bucket-img">
+        <img src="./img/ga9.png" class="img-fluid" alt="" />
+      </div>
+      <div class="site-bucket-img">
+        <img src="./img/ga10.jpeg" class="img-fluid" alt="" />
+      </div>
+
+      <div class="site-bucket-img">
+        <img src="./img/ga12.jpeg" class="img-fluid" alt="" />
+      </div>
+      <div class="site-bucket-img">
+        <img src="./img/ga13.jpeg" class="img-fluid" alt="" />
+      </div>
+      <div class="site-bucket-img">
+        <img src="./img/ga11.png" class="img-fluid" alt="" />
+      </div>
+    </div>
+    <div class="site-buckets">
       <div class="site-bucket-img">
         <img src="./img/ga3.jpeg" class="img-fluid" alt="" />
       </div>
@@ -23,26 +42,9 @@
       <div class="site-bucket-img">
         <img src="./img/ga5.jpeg" class="img-fluid" alt="" />
       </div>
-      
+
       <div class="site-bucket-img">
         <img src="./img/ga7.jpeg" class="img-fluid" alt="" />
-      </div>
-      
-      <div class="site-bucket-img">
-        <img src="./img/ga9.png" class="img-fluid" alt="" />
-      </div>
-      <div class="site-bucket-img">
-        <img src="./img/ga10.jpeg" class="img-fluid" alt="" />
-      </div>
-      
-      <div class="site-bucket-img">
-        <img src="./img/ga12.jpeg" class="img-fluid" alt="" />
-      </div>
-      <div class="site-bucket-img">
-        <img src="./img/ga13.jpeg" class="img-fluid" alt="" />
-      </div>
-      <div class="site-bucket-img">
-        <img src="./img/ga11.png" class="img-fluid" alt="" />
       </div>
     </div>
   </div>
