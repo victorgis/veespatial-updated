@@ -14,7 +14,7 @@
             ><div class="resume-list-box">Mobile App Cross-platform Engineer</div></a
           >
           <a
-          href="https://drive.google.com/file/d/1B7hocK9fvPhVGX0sFODH3GVuWPpSo9VM/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1iVYIGKxs4wcs5snQJ35GuPIRSNmeojwq/view?usp=drive_link"
           ><div class="resume-list-box">Software Engineer</div></a
           >
           <a
