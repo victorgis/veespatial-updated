@@ -15,8 +15,8 @@
         <p>Urban Explorer</p>
         <img src="./img/md-2.png" class="img-fluid" alt="" />
         <div class="overlay">
-          <a href="../../assets/hosted/urban-explorer.apk">
-            <p class="details">Download Urban Explorer</p></a
+          <router-link to="">
+            <p class="details"></p></router-link
           >
         </div>
       </div>
