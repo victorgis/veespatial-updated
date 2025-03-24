@@ -20,14 +20,15 @@
           >
         </div>
       </div>
-      <!-- <div class="site-bucket-img">
-        <img src="./img/md-2.png" class="img-fluid" alt="" />
+      <div class="site-bucket-img">
+        <p>Classic Chat</p>
+        <img src="./img/md-3.png" class="img-fluid" alt="" />
         <div class="overlay">
-          <router-link to="portfolio/sd-7">
-            <p class="details">Open</p></router-link
+          <router-link to="">
+            <p class="details"></p></router-link
           >
         </div>
-      </div> -->
+      </div>
     </div>
   </div>
 </template>

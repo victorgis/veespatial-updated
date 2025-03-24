@@ -29,7 +29,7 @@
       </div>
       
       <div class="site-bucket-img">
-        <img src="./img/ga9.jpeg" class="img-fluid" alt="" />
+        <img src="./img/ga9.png" class="img-fluid" alt="" />
       </div>
       <div class="site-bucket-img">
         <img src="./img/ga10.jpeg" class="img-fluid" alt="" />
@@ -42,7 +42,7 @@
         <img src="./img/ga13.jpeg" class="img-fluid" alt="" />
       </div>
       <div class="site-bucket-img">
-        <img src="./img/ga11.jpeg" class="img-fluid" alt="" />
+        <img src="./img/ga11.png" class="img-fluid" alt="" />
       </div>
     </div>
   </div>
