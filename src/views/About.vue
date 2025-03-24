@@ -101,6 +101,9 @@ export default {
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
+.about-details-1-texts {
+  margin-left: 20px;
+}
 .about-details-1 p {
   font-size: 25px;
 }
