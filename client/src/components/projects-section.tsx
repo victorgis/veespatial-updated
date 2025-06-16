@@ -214,16 +214,15 @@ export default function ProjectsSection() {
                       ))}
                     </div>
                     <div className="flex justify-between items-center mt-auto">
-                      <Button variant="ghost" size="sm" asChild>
+                      {/* <Button variant="ghost" size="sm" asChild>
                         <a
                           href={project.demoLink}
                           className="text-blue-600 hover:text-blue-700 font-semibold"
                         >
                           <ExternalLink className="w-4 h-4" />
-                          {/* Live Demo */}
-                          {/* mr-2 */}
+                          Live Demo
                         </a>
-                      </Button>
+                      </Button> */}
                       {/* <Button variant="ghost" size="sm" asChild>
                         <a
                           href={project.codeLink}
