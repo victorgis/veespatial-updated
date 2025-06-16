@@ -96,7 +96,7 @@ export default function HeroSection() {
             <Button
               size="lg"
               onClick={() => scrollToSection("projects")}
-              className="px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
+              className="px-8 py-4 bg-orange-500 hover:bg-orange-700 text-white font-semibold rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-xl"
             >
               View My Work
             </Button>
