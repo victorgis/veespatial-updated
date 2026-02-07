@@ -3,6 +3,8 @@ import { useTheme } from "@/components/theme-provider";
 import { Button } from "@/components/ui/button";
 import { Sun, Moon, Menu, X } from "lucide-react";
 
+// const logo = require("../../public/veespatial.png")
+
 export default function Navigation() {
   const { theme, toggleTheme } = useTheme();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -33,7 +35,9 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-              <a href="/">VE</a>
+              <a href="/">
+                <img src={"../../public/veespatial.png"} width={180} />
+              </a>
             </span>
           </div>
 
