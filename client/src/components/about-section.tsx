@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Rocket, Globe, TrendingUp, Users } from "lucide-react";
 
-import victor from "../../assets/images/victor.png"
+import victor from "../../assets/images/victoressang.jpg"
 
 export default function AboutSection() {
   const motivations = [
