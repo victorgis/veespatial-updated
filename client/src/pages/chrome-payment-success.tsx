@@ -24,9 +24,9 @@ function chromePaymentSuccess() {
 
       console.log("Payment verification response:", await response.json());
 
-      if (response.ok) {
-        console.log("Database updated! You can now tell the user to go back to the extension.");
-      }
+      // if (response.ok) {
+      //   console.log("Database updated! You can now tell the user to go back to the extension.");
+      // }
       
     }
   }
