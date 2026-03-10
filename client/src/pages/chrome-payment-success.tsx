@@ -33,12 +33,14 @@ function chromePaymentSuccess() {
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 transition-colors duration-300">
       <Navigation />
-      <div className="mt-10"></div>
-      <div className="text-center">
+      <div className="mt-10">
+        <div className="text-center">
         <h1 className="text-4xl font-bold mb-4">Payment Successful!</h1>
         <p className="text-lg">Thank you for your purchase. You can now return to the extension and enjoy your new features.</p>
         {/* <p>{response}</p> */}
       </div>
+      </div>
+      
       <ContactSection />
       <Footer />
     </div>
