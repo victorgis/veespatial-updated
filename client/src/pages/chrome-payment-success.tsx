@@ -12,15 +12,18 @@ function chromePaymentSuccess() {
     const sessionId = urlParams.get('session_id');
 
     if (sessionId) {
-      const response = await fetch('https://vnoumodeojhcbxawvzpc.supabase.co/functions/v1/verify-payment', {
+      const response = await fetch('https://vnoumodeojhcbxawvzpc.supabase.co/functions/v1/check-payment', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ sessionId })
       });
 
+      console.log("Payment verification response:", await response.json());
+
       if (response.ok) {
         console.log("Database updated! You can now tell the user to go back to the extension.");
       }
+      
     }
   }
 
