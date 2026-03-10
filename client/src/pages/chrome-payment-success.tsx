@@ -14,7 +14,11 @@ function chromePaymentSuccess() {
     if (sessionId) {
       const response = await fetch('https://vnoumodeojhcbxawvzpc.supabase.co/functions/v1/check-payment', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZub3Vtb2Rlb2poY2J4YXd2enBjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMwNjkzMDUsImV4cCI6MjA4ODY0NTMwNX0.NXCh4YNmlNU-RJCAO34Gzn7z2zXtme5NYAomfYBTgG0",
+          "apikey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZub3Vtb2Rlb2poY2J4YXd2enBjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzMwNjkzMDUsImV4cCI6MjA4ODY0NTMwNX0.NXCh4YNmlNU-RJCAO34Gzn7z2zXtme5NYAomfYBTgG0"
+        },
         body: JSON.stringify({ sessionId })
       });
 
