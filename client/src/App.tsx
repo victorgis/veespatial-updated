@@ -10,6 +10,7 @@ import Courses from "./pages/courses";
 import Projects from "./pages/projects";
 import Store from "./pages/store";
 import Contacts from "./pages/contacts";
+import ChromePaymentSuccess from "./pages/chrome-payment-success";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/store" element={<Store />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/contacts" element={<Contacts />} />
+          <Route path="/chrome-payment-success" element={< ChromePaymentSuccess/>} />
           {/* Add Store and Contact routes here similarly */}
         </Routes>
         <Toaster />
