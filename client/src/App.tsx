@@ -11,12 +11,13 @@ import Projects from "./pages/projects";
 import Store from "./pages/store";
 import Contacts from "./pages/contacts";
 import ChromePaymentSuccess from "./pages/chrome-payment-success";
+import ReplyGenie from "./apps-landing-pages/replygenie-chrome-extension";
 
 function App() {
   return (
     <ThemeProvider>
       <TooltipProvider>
-        <Navigation /> {/* Nav is outside Routes so it shows on all pages */}
+        <Navigation />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -25,6 +26,7 @@ function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/chrome-payment-success" element={< ChromePaymentSuccess/>} />
+          <Route path="/replygenie" element={< ReplyGenie/>} />
           {/* Add Store and Contact routes here similarly */}
         </Routes>
         <Toaster />
