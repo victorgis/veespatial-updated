@@ -137,7 +137,7 @@ function ReplyGenie() {
       </section>
 
       {/* --- LEGAL SECTIONS --- */}
-      <section className="py-24 px-6 border-t border-slate-200 dark:border-slate-800">
+      <section id="privacy" className="py-24 px-6 border-t border-slate-200 dark:border-slate-800">
         <div className="max-w-4xl mx-auto space-y-24">
           
           {/* Privacy Policy */}
@@ -157,11 +157,11 @@ function ReplyGenie() {
               <p>
                 We do not store your social media passwords. Our extension only accesses the content of the post you are currently viewing to generate relevant AI responses.
               </p>
-              <h3 className="text-xl font-semibold text-slate-900 dark:text-slate-100">2. Google Drive Integration</h3>
+              {/* <h3 className="text-xl font-semibold text-slate-900 dark:text-slate-100">2. Google Drive Integration</h3>
               <p>
                 If you use our receipt syncing features, we request access to your Google Drive to save files. We only access the specific folders created by ReplyGenie and do not read other files in your Drive.
-              </p>
-              <h3 className="text-xl font-semibold text-slate-900 dark:text-slate-100">3. AI Processing</h3>
+              </p> */}
+              <h3 className="text-xl font-semibold text-slate-900 dark:text-slate-100">2. AI Processing</h3>
               <p>
                 Text snippets are processed via encrypted channels to our AI models to generate replies. This data is not used for training global models and is deleted after processing.
               </p>
