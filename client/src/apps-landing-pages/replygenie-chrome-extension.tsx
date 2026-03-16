@@ -10,7 +10,9 @@ import {
   Chrome, 
   CheckCircle2, 
   Sparkles,
-  ArrowRight
+  ArrowRight,
+  FileText,
+  ShieldCheck
 } from "lucide-react";
 
 function ReplyGenie() {
@@ -29,7 +31,7 @@ function ReplyGenie() {
             Write Smarter Replies <br /> on X & LinkedIn
           </h1>
           <p className="text-xl text-slate-600 dark:text-slate-400 max-w-2xl mx-auto mb-10">
-            ReplyGenie helps you craft thoughtful, context-aware responses instantly. 
+            REPLY TWITTER & LINKEDIN (ReplyGenie) helps you craft thoughtful, context-aware responses instantly. 
             Engage with your audience, build authority, and save hours of manual typing.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -131,6 +133,72 @@ function ReplyGenie() {
             Get Started for Free
             <ArrowRight size={20} />
           </button>
+        </div>
+      </section>
+
+      {/* --- LEGAL SECTIONS --- */}
+      <section className="py-24 px-6 border-t border-slate-200 dark:border-slate-800">
+        <div className="max-w-4xl mx-auto space-y-24">
+          
+          {/* Privacy Policy */}
+          <div id="privacy" className="scroll-mt-24">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="p-2 bg-blue-100 dark:bg-blue-900/50 text-blue-600 dark:text-blue-400 rounded-lg">
+                <ShieldCheck size={24} />
+              </div>
+              <h2 className="text-3xl font-bold">Privacy Policy</h2>
+            </div>
+            <div className="prose prose-slate dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 space-y-4">
+              <p>Last updated: October 2023</p>
+              <p>
+                At REPLY TWITTER & LINKEDIN (ReplyGenie), we take your privacy seriously. This policy outlines how we handle your data when you use our Chrome Extension and associated services.
+              </p>
+              <h3 className="text-xl font-semibold text-slate-900 dark:text-slate-100">1. Data Collection</h3>
+              <p>
+                We do not store your social media passwords. Our extension only accesses the content of the post you are currently viewing to generate relevant AI responses.
+              </p>
+              <h3 className="text-xl font-semibold text-slate-900 dark:text-slate-100">2. Google Drive Integration</h3>
+              <p>
+                If you use our receipt syncing features, we request access to your Google Drive to save files. We only access the specific folders created by ReplyGenie and do not read other files in your Drive.
+              </p>
+              <h3 className="text-xl font-semibold text-slate-900 dark:text-slate-100">3. AI Processing</h3>
+              <p>
+                Text snippets are processed via encrypted channels to our AI models to generate replies. This data is not used for training global models and is deleted after processing.
+              </p>
+            </div>
+          </div>
+
+          {/* Terms & Conditions */}
+          <div id="terms" className="scroll-mt-24">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="p-2 bg-purple-100 dark:bg-purple-900/50 text-purple-600 dark:text-purple-400 rounded-lg">
+                <FileText size={24} />
+              </div>
+              <h2 className="text-3xl font-bold">Terms & Conditions</h2>
+            </div>
+            <div className="prose prose-slate dark:prose-invert max-w-none text-slate-600 dark:text-slate-400 space-y-4">
+              <p>
+                By installing the REPLY TWITTER & LINKEDIN (ReplyGenie) Chrome Extension, you agree to the following terms:
+              </p>
+              <h3 className="text-xl font-semibold text-slate-900 dark:text-slate-100">1. Usage License</h3>
+              <p>
+                We grant you a personal, non-transferable license to use ReplyGenie for personal or professional social media management.
+              </p>
+              <h3 className="text-xl font-semibold text-slate-900 dark:text-slate-100">2. Free Tier Limitations</h3>
+              <p>
+                Free users are limited to 2 receipt uploads or a set number of AI replies per month. Attempting to bypass these limits via multiple accounts is a violation of our terms.
+              </p>
+              <h3 className="text-xl font-semibold text-slate-900 dark:text-slate-100">3. Responsible AI Use</h3>
+              <p>
+                You are responsible for the content you post. ReplyGenie is a tool to assist you, but you should review all AI-generated content to ensure it complies with the community guidelines of X (Twitter) and LinkedIn.
+              </p>
+              <h3 className="text-xl font-semibold text-slate-900 dark:text-slate-100">4. Termination</h3>
+              <p>
+                We reserve the right to terminate access to users who use the tool for spamming, harassment, or automated botting behaviors.
+              </p>
+            </div>
+          </div>
+
         </div>
       </section>
 
