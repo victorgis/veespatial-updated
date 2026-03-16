@@ -136,6 +136,11 @@ export default function Navigation() {
                 About
               </button>
             </Link>
+            <Link to="/liveapps">
+              <button className="block w-full text-left px-3 py-2 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400">
+                Live Apps
+              </button>
+            </Link>
             <Link to="/projects">
               <button className="block w-full text-left px-3 py-2 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400">
                 Projects

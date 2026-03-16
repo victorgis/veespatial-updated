@@ -32,7 +32,7 @@ export const QuickFixCTA = () => {
   const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${quickFixMessage}`;
 
   return (
-    <section className="py-12 px-4">
+    <section className="py-12 mt-10 px-4">
       <div className="max-w-4xl mx-auto bg-blue-50 dark:bg-slate-800 border-2 border-dashed border-blue-200 dark:border-slate-700 rounded-2xl p-8 text-center">
         <h2 className="text-2xl font-bold mb-4">Need a Quick Fix? 🛠️</h2>
         <p className="text-slate-600 dark:text-slate-400 mb-6">

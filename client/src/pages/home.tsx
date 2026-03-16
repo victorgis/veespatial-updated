@@ -23,6 +23,7 @@
 // }
 
 //pages/home.tsx
+import { motion } from "framer-motion";
 
 import Navigation from "@/components/navigation";
 import HeroSection from "@/components/hero-section";
@@ -34,6 +35,8 @@ import Footer from "@/components/footer";
 
 // Import the new components
 import { FloatingWhatsApp, QuickFixCTA } from "@/components/whatsapp-section";
+import { CloudLightning } from "lucide-react";
+import { ViewLiveApps } from "@/components/view-live-apps";
 
 export default function Home() {
   return (
@@ -43,6 +46,9 @@ export default function Home() {
       
       {/* 1. Added the Quick Fix Section here */}
       <QuickFixCTA /> 
+
+      <ViewLiveApps />
+      
 
       <ProjectsSection />
       <SkillsSection />
