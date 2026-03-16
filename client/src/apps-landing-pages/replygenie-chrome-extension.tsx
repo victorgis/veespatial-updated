@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
 import Navigation from "@/components/navigation";
@@ -16,6 +16,22 @@ import {
 } from "lucide-react";
 
 function ReplyGenie() {
+
+  // Add this effect to handle the initial hash load
+  useEffect(() => {
+    // Check if there is a hash in the URL (e.g., #privacy)
+    if (window.location.hash) {
+      const id = window.location.hash.substring(1); // remove the '#'
+      const element = document.getElementById(id);
+      if (element) {
+        // Add a tiny delay to ensure the DOM is fully painted
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: "smooth" });
+        }, 100);
+      }
+    }
+  }, []);
+  
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 transition-colors duration-300">
       <Navigation />
@@ -137,7 +153,7 @@ function ReplyGenie() {
       </section>
 
       {/* --- LEGAL SECTIONS --- */}
-      <section id="privacy" className="py-24 px-6 border-t border-slate-200 dark:border-slate-800">
+      <section className="py-24 px-6 border-t border-slate-200 dark:border-slate-800">
         <div className="max-w-4xl mx-auto space-y-24">
           
           {/* Privacy Policy */}
