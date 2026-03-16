@@ -19,7 +19,7 @@ const socialLinks = [
   },
   {
     icon: Mail,
-    href: "mailto:essangvictor@gmail.com",
+    href: "mailto:contact@veespatial.com",
     label: "Email",
   },
   {

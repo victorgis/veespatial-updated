@@ -6,8 +6,8 @@ const contactMethods = [
   {
     icon: Mail,
     title: "Email",
-    value: "essangvictor@gmail.com",
-    href: "mailto:essangvictor@gmail.com",
+    value: "contact@veespatial.com",
+    href: "mailto:contact@veespatial.com",
     bgColor: "bg-blue-100 dark:bg-blue-900",
     iconColor: "text-blue-600 dark:text-blue-400",
   },

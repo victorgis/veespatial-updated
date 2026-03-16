@@ -55,11 +55,17 @@ export default function Navigation() {
                 About
               </button>
             </Link>
+            <Link to="/liveapps">
+              <button className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                Live Apps
+              </button>
+            </Link>
             <Link to="/projects">
               <button className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                 Projects
               </button>
             </Link>
+            
             <Link to="/courses">
               <button className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                 Courses

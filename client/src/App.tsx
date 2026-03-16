@@ -12,6 +12,8 @@ import Store from "./pages/store";
 import Contacts from "./pages/contacts";
 import ChromePaymentSuccess from "./pages/chrome-payment-success";
 import ReplyGenie from "./apps-landing-pages/replygenie-chrome-extension";
+import LiveApps from "./pages/liveapps"
+import ReceiptWalletChromeExtension from "./apps-landing-pages/receiptwallet-chrome-extension";
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/chrome-payment-success" element={< ChromePaymentSuccess/>} />
           <Route path="/replygenie" element={< ReplyGenie/>} />
+          <Route path="/receiptwallet-chrome-extension" element={< ReceiptWalletChromeExtension/>} />
+          <Route path="/liveapps" element={< LiveApps/>} />
           {/* Add Store and Contact routes here similarly */}
         </Routes>
         <Toaster />
