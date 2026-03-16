@@ -129,7 +129,7 @@ const liveApps = {
         "Real estate wealth management platform providing secure investment access to everyone.",
       image: breics,
       technologies: ["Nuxt.js", "PHP", "Google Maps", "Vuex"],
-      liveLink: "breics.com",
+      liveLink: "https://breics.com",
       users: "1K+",
     },
     {
