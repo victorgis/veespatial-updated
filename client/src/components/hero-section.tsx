@@ -79,7 +79,7 @@ export default function HeroSection() {
           </h1>
 
           <p className="text-xl md:text-2xl mb-8 text-slate-200 max-w-3xl mx-auto">
-            Software Engineer & GIS Expert crafting innovative solutions at the
+            Software Engineer & Geospatial Analyst crafting innovative solutions at the
             crossroads of{" "}
             <span className="text-purple-400 font-semibold">AI</span>
             {", "}{" "}

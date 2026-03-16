@@ -78,6 +78,13 @@ export default function Footer() {
                     Me
                   </a>
                   <a
+                    href="https://www.fiverr.com/s/kLk5WbQ"
+                    target="_blank"
+                    className="text-slate-400 ml-5 hover:text-white transition-colors"
+                  >
+                    Fi
+                  </a>
+                  <a
                     href="https://www.upwork.com/freelancers/~012d233326cbb63858?mp_source=share"
                     target="_blank"
                     className="text-slate-400 ml-5 hover:text-white transition-colors"

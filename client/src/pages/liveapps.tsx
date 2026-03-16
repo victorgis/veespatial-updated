@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Smartphone, Globe, Chrome, Download } from "lucide-react";
-import crossSafe from "../../assets/images/crossSafe.png";
 import releaf from "../../assets/images/releaf.png";
 import flexxy from "../../assets/images/flexxy.png";
 import replygenie from "../../assets/images/replygenieIcon.png"
@@ -10,6 +9,9 @@ import receiptWallet from "../../assets/images/ReceiptWallet.png"
 import subscriptionTracker from "../../assets/images/SubscriptionApp.png"
 import nersappIcon from "../../assets/images/nersapp_500.png"
 import breics from "../../assets/images/Breics.png";
+import cocDevotional from "../../assets/images/COC.png";
+import queueMarshalIcon from "../../assets/images/queuemarshal.png";
+// import crossSafe from "../../assets/images/crossSafe.png";
 // import eoc from "../../assets/images/eoc.png";
 
 const liveApps = {
@@ -27,7 +29,7 @@ const liveApps = {
       description: "Saves your online shopping receipts directly from your browser into your Google Drive. Mobile App version also available.",
       image: receiptWallet,
       technologies: ["TypeScript", "Chrome API", "Google Drive", "Supabase"],
-      chromeStoreLink: "#",
+      chromeStoreLink: "https://chromewebstore.google.com/detail/ldlenndfbagaabopndhijodimjbliiil?utm_source=item-share-cb",
     //   users: "3K+ users",
     },
   ],
@@ -53,34 +55,45 @@ const liveApps = {
       downloads: "25K+",
     },
     {
+      title: "COC Devotional & Hymns",
+      description:
+        "Mobile app for the Christ Of Church (CAC) community, providing daily devotionals, hymns, and church news.",
+      image: cocDevotional,
+      technologies: ["React Native", "Expo", "Firebase", "TypeScript"],
+    //   appStoreLink: "#",
+      playStoreLink: "https://play.google.com/store/apps/details?id=com.coc.coc_devotional_and_hymn",
+      downloads: "3K+",
+    },
+    {
       title: "Nersapp",
       description:
         "Manage your academic institution with Nersapp - your all-in-one app for schedules, grades, and results.",
       image: nersappIcon,
       technologies: ["React Native", "Expo", "TypeScript"],
     //   appStoreLink: "#",
-      playStoreLink: "#",
-      downloads: "10K+",
+      playStoreLink: "https://play.google.com/store/apps/details?id=com.victorgis.nersapp",
+      downloads: "200+",
     },
     {
       title: "Subscription Tracker",
       description:
         "Tracks the expiration dates of your online subscriptions and sends you timely reminders to avoid unexpected charges.",
       image: subscriptionTracker,
-      technologies: ["React Native", "Expo", "Google Maps", "Firebase", "TypeScript"],
+      technologies: ["React Native", "Expo", "Supabase", "Firebase", "TypeScript"],
     //   appStoreLink: "#",
       playStoreLink: "https://play.google.com/store/apps/details?id=com.victorgis.subscriptiontrackerapp",
       downloads: "20+",
     },
+    
     {
       title: "Receipt Wallet",
       description:
         "Stores your online shopping receipts in Google Drive, accessible from both mobile and desktop.",
       image: receiptWallet,
-      technologies: ["React Native", "Expo", "Google Maps", "Firebase", "TypeScript"],
+      technologies: ["React Native", "Expo", "Supabase", "Firebase", "TypeScript"],
     //   appStoreLink: "#",
-      playStoreLink: "#",
-    //   downloads: "1K+",
+      playStoreLink: "https://play.google.com/store/apps/details?id=com.victorgis.receiptwallet",
+      downloads: "20+",
     },
     
   ],
@@ -117,7 +130,16 @@ const liveApps = {
       image: breics,
       technologies: ["Nuxt.js", "PHP", "Google Maps", "Vuex"],
       liveLink: "breics.com",
-    //   users: "Active platform",
+      users: "1K+",
+    },
+    {
+      title: "Queue Marshal",
+      description:
+        "Access smart, free online tools that streamline your logistics workflow and boost productivity effortlessly.",
+      image: queueMarshalIcon,
+      technologies: ["Angular.js", "Supabase", "Google Maps"],
+      liveLink: "https://queue-marshal-develop.netlify.app/",
+      users: "1K+",
     },
   ],
   

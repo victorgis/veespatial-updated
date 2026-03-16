@@ -35,7 +35,7 @@ const projects = [
   },
   {
     title: "COVID-19 City Dashboard",
-    description: "Real-time dashboard for COVID-19 Case Response Centre",
+    description: "Real-time GIS dashboard for COVID-19 Case Response Centre",
     image: eoc,
     technologies: [
       "ArcGISPro",

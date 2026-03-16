@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
-import { Rocket, Globe, TrendingUp, Users } from "lucide-react";
+import { Rocket, Globe, TrendingUp, Users, TicketCheckIcon } from "lucide-react";
 
 import victor from "../../assets/images/victoressang.jpg"
 
@@ -17,6 +17,10 @@ export default function AboutSection() {
     {
       icon: TrendingUp,
       text: "Applying machine learning algorithms to spatial datasets for predictive analytics and decision-making"
+    },
+    {
+      icon: TicketCheckIcon,
+      text: "Integrating AI technologies to create intelligent applications that enhance user experiences and provide actionable insights"
     },
     {
       icon: Users,
@@ -39,16 +43,16 @@ export default function AboutSection() {
             </h2>
 
             <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
-              I'm a passionate Software Engineer and GIS Expert who thrives at
+              I'm a passionate Software Engineer and Geospatial Analyst who thrives at
               the intersection of cutting-edge technology and geospatial
               intelligence. With 8+ years of experience in mobile and web
               development, I specialize in creating innovative solutions that
-              leverage location-based services and spatial data analysis.
+              leverage AI, location-based services and spatial data analysis.
             </p>
 
             <p className="text-lg text-slate-600 dark:text-slate-400 leading-relaxed">
               My journey began with traditional software development, but I
-              quickly discovered the immense potential of integrating geospatial
+              quickly discovered the immense potential of integrating AI and geospatial
               technology into modern applications. This unique combination
               allows me to build applications that not only function beautifully
               but also provide meaningful insights through spatial analysis and

@@ -56,14 +56,14 @@ function ReceiptWalletChromeExtension() {
             Shop online, and we'll handle the rest—organized, secure, and accessible anywhere.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://chromewebstore.google.com/detail/ldlenndfbagaabopndhijodimjbliiil?utm_source=item-share-cb" target="_blank" rel="noopener noreferrer">
               <button className="flex items-center justify-center gap-2 bg-slate-900 dark:bg-green-600 hover:bg-slate-800 dark:hover:bg-green-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all transform hover:scale-105">
                 <Chrome size={20} />
                 Add to Chrome — It's Free
               </button>
             </a>
             
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://play.google.com/store/apps/details?id=com.victorgis.receiptwallet" target="_blank" rel="noopener noreferrer">
               <button className="flex items-center justify-center gap-2 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition-all">
                 <Smartphone size={20} />
                 Get Mobile App
@@ -227,10 +227,12 @@ function ReceiptWalletChromeExtension() {
                     <Download size={20} />
                     App Store
                   </button> */}
-                  <button className="bg-white text-purple-600 px-6 py-3 rounded-xl font-bold hover:bg-purple-50 transition-colors flex items-center justify-center gap-2">
-                    <Download size={20} />
-                    Play Store
-                  </button>
+                  <a href="https://play.google.com/store/apps/details?id=com.victorgis.receiptwallet" target="_blank" rel="noopener noreferrer">
+                    <button className="bg-white text-purple-600 px-6 py-3 rounded-xl font-bold hover:bg-purple-50 transition-colors flex items-center justify-center gap-2">
+                      <Download size={20} />
+                      Play Store
+                    </button>
+                  </a>
                 </div>
               </div>
               <div className="flex items-center justify-center">
@@ -250,7 +252,7 @@ function ReceiptWalletChromeExtension() {
           <p className="text-green-100 text-xl mb-8">
             Join thousands of shoppers who never lose a receipt. Free to install, easy to use.
           </p>
-          <a href="#">
+          <a href="https://chromewebstore.google.com/detail/ldlenndfbagaabopndhijodimjbliiil?utm_source=item-share-cb">
             <button className="bg-white text-green-600 px-10 py-4 rounded-xl font-bold text-lg hover:bg-green-50 transition-colors flex items-center gap-2 mx-auto">
               Get Started for Free
               <ArrowRight size={20} />
