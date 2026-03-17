@@ -57,7 +57,7 @@ export default function Home() {
       <Footer />
 
       {/* 2. Added the Floating Button at the bottom */}
-      <FloatingWhatsApp />
+      {/* <FloatingWhatsApp /> */}
     </div>
   );
 }

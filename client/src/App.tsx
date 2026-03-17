@@ -14,6 +14,7 @@ import ChromePaymentSuccess from "./pages/chrome-payment-success";
 import ReplyGenie from "./apps-landing-pages/replygenie-chrome-extension";
 import LiveApps from "./pages/liveapps"
 import ReceiptWalletChromeExtension from "./apps-landing-pages/receiptwallet-chrome-extension";
+import { FloatingWhatsApp } from "./components/whatsapp-section";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/liveapps" element={< LiveApps/>} />
           {/* Add Store and Contact routes here similarly */}
         </Routes>
+        <FloatingWhatsApp />
         <Toaster />
       </TooltipProvider>
     </ThemeProvider>

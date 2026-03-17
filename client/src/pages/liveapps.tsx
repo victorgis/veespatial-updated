@@ -11,6 +11,10 @@ import nersappIcon from "../../assets/images/nersapp_500.png"
 import breics from "../../assets/images/Breics.png";
 import cocDevotional from "../../assets/images/COC.png";
 import queueMarshalIcon from "../../assets/images/queuemarshal.png";
+import { QuickFixCTA } from "@/components/whatsapp-section";
+import Footer from "@/components/footer";
+import ContactSection from "@/components/contact-section";
+import { useEffect } from "react";
 // import crossSafe from "../../assets/images/crossSafe.png";
 // import eoc from "../../assets/images/eoc.png";
 
@@ -57,7 +61,7 @@ const liveApps = {
     {
       title: "COC Devotional & Hymns",
       description:
-        "Mobile app for the Christ Of Church (CAC) community, providing daily devotionals, hymns, and church news.",
+        "Mobile app for the Christ Of Church (COC) community, providing daily devotionals, and hymns.",
       image: cocDevotional,
       technologies: ["React Native", "Expo", "Firebase", "TypeScript"],
     //   appStoreLink: "#",
@@ -191,9 +195,18 @@ const categoryTitles = {
 };
 
 export default function LiveAppsSection() {
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "auto", // changes to "smooth" if you want a smooth scroll to the top
+    });
+  }, []);
   return (
-    <section id="live-apps" className="py-20 bg-white dark:bg-slate-900">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <>
+      <section id="live-apps" className="py-20 bg-white dark:bg-slate-900">
+      <div className="max-w-7xl mt-20 mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
           <motion.h2
@@ -359,7 +372,13 @@ export default function LiveAppsSection() {
             </div>
           );
         })}
+        <QuickFixCTA />
+        
       </div>
     </section>
+    <ContactSection />
+    <Footer />
+    </>
+    
   );
 }
