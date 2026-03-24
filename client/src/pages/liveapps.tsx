@@ -34,6 +34,7 @@ const liveApps = {
       image: receiptWallet,
       technologies: ["TypeScript", "Chrome API", "Google Drive", "Supabase"],
       chromeStoreLink: "https://chromewebstore.google.com/detail/ldlenndfbagaabopndhijodimjbliiil?utm_source=item-share-cb",
+      webpage: "/receiptwallet",
     //   users: "3K+ users",
     },
   ],
@@ -350,7 +351,7 @@ export default function LiveAppsSection() {
                               </Button>
                             )}
                             {app.chromeStoreLink && (
-                              <Button variant="default" size="sm" asChild className="w-full">
+                              <Button variant="outline" size="sm" asChild className="flex-1">
                                 <a
                                   href={app.chromeStoreLink}
                                   target="_blank"
@@ -359,6 +360,19 @@ export default function LiveAppsSection() {
                                 >
                                   <Chrome className="w-4 h-4" />
                                   Add to Chrome
+                                </a>
+                              </Button>
+                            )}
+                            {app.webpage && (
+                              <Button variant="default" size="sm" asChild className="flex-1">
+                                <a
+                                  href={app.webpage}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="inline-flex items-center justify-center gap-2"
+                                >
+                                  <Chrome className="w-4 h-4" />
+                                  Visit Page
                                 </a>
                               </Button>
                             )}

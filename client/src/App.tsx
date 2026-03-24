@@ -30,7 +30,7 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/chrome-payment-success" element={< ChromePaymentSuccess/>} />
           <Route path="/replygenie" element={< ReplyGenie/>} />
-          <Route path="/receiptwallet-chrome-extension" element={< ReceiptWalletChromeExtension/>} />
+          <Route path="/receiptwallet" element={< ReceiptWalletChromeExtension/>} />
           <Route path="/liveapps" element={< LiveApps/>} />
           {/* Add Store and Contact routes here similarly */}
         </Routes>

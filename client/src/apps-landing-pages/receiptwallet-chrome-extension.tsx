@@ -43,7 +43,7 @@ function ReceiptWalletChromeExtension() {
 
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-6">
-        <div className="max-w-6xl mx-auto text-center">
+        <div id="getStarted" className="max-w-6xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-100 dark:bg-green-900/30 text-green-600 dark:text-green-400 text-sm font-medium mb-6">
             <Sparkles size={16} />
             <span>Automatic Receipt Organization</span>
@@ -79,10 +79,10 @@ function ReceiptWalletChromeExtension() {
           </div>
 
           <div className="mt-12 flex items-center justify-center gap-8 opacity-60 grayscale">
-            <span className="font-bold text-xl tracking-tighter">Amazon</span>
+            {/* <span className="font-bold text-xl tracking-tighter">Amazon</span>
             <span className="font-bold text-xl tracking-tighter">eBay</span>
             <span className="font-bold text-xl tracking-tighter">Shopify</span>
-            <span className="font-bold text-xl tracking-tighter">& More</span>
+            <span className="font-bold text-xl tracking-tighter">& More</span> */}
           </div>
         </div>
       </section>
@@ -252,12 +252,12 @@ function ReceiptWalletChromeExtension() {
           <p className="text-green-100 text-xl mb-8">
             Join thousands of shoppers who never lose a receipt. Free to install, easy to use.
           </p>
-          <a href="https://chromewebstore.google.com/detail/ldlenndfbagaabopndhijodimjbliiil?utm_source=item-share-cb">
-            <button className="bg-white text-green-600 px-10 py-4 rounded-xl font-bold text-lg hover:bg-green-50 transition-colors flex items-center gap-2 mx-auto">
+          {/* <a href="https://chromewebstore.google.com/detail/ldlenndfbagaabopndhijodimjbliiil?utm_source=item-share-cb"> */}
+            <button onClick={() => document.getElementById("getStarted")?.scrollIntoView({ behavior: "smooth" })} className="bg-white text-green-600 px-10 py-4 rounded-xl font-bold text-lg hover:bg-green-50 transition-colors flex items-center gap-2 mx-auto">
               Get Started for Free
               <ArrowRight size={20} />
             </button>
-          </a>
+          {/* </a> */}
         </div>
       </section>
 
