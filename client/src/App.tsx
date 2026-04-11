@@ -15,6 +15,8 @@ import ReplyGenie from "./apps-landing-pages/replygenie-chrome-extension";
 import LiveApps from "./pages/liveapps"
 import ReceiptWalletChromeExtension from "./apps-landing-pages/receiptwallet-chrome-extension";
 import { FloatingWhatsApp } from "./components/whatsapp-section";
+import BibleRegimen from "./apps-landing-pages/bibleregimen";
+import SubscriptionTracker from "./apps-landing-pages/subscriptiontracker";
 
 function App() {
   return (
@@ -30,7 +32,9 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/chrome-payment-success" element={< ChromePaymentSuccess/>} />
           <Route path="/replygenie" element={< ReplyGenie/>} />
-          <Route path="/receiptwallet" element={< ReceiptWalletChromeExtension/>} />
+          <Route path="/receiptwallet" element={< ReceiptWalletChromeExtension />} />
+          <Route path="/bibleregimen" element={< BibleRegimen />} />
+          <Route path="/subscriptiontracker" element={< SubscriptionTracker />} />
           <Route path="/liveapps" element={< LiveApps/>} />
           {/* Add Store and Contact routes here similarly */}
         </Routes>

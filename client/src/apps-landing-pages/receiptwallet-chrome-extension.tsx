@@ -66,7 +66,8 @@ function ReceiptWalletChromeExtension() {
             <a href="https://play.google.com/store/apps/details?id=com.victorgis.receiptwallet" target="_blank" rel="noopener noreferrer">
               <button className="flex items-center justify-center gap-2 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition-all">
                 <Smartphone size={20} />
-                Get Mobile App
+                {/* Get Mobile App */}
+                Join Mobile Testers (Android)
               </button>
             </a>
           </div>
@@ -227,12 +228,12 @@ function ReceiptWalletChromeExtension() {
                     <Download size={20} />
                     App Store
                   </button> */}
-                  <a href="https://play.google.com/store/apps/details?id=com.victorgis.receiptwallet" target="_blank" rel="noopener noreferrer">
+                  {/* <a href="https://play.google.com/store/apps/details?id=com.victorgis.receiptwallet" target="_blank" rel="noopener noreferrer">
                     <button className="bg-white text-purple-600 px-6 py-3 rounded-xl font-bold hover:bg-purple-50 transition-colors flex items-center justify-center gap-2">
                       <Download size={20} />
                       Play Store
                     </button>
-                  </a>
+                  </a> */}
                 </div>
               </div>
               <div className="flex items-center justify-center">

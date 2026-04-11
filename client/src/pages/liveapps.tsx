@@ -4,7 +4,8 @@ import { Button } from "@/components/ui/button";
 import { ExternalLink, Smartphone, Globe, Chrome, Download } from "lucide-react";
 import releaf from "../../assets/images/releaf.png";
 import flexxy from "../../assets/images/flexxy.png";
-import replygenie from "../../assets/images/replygenieIcon.png"
+import replygenie from "../../assets/images/replygenieIcon.png";
+import regimenbible from "../../assets/images/rb-dak.png"
 import receiptWallet from "../../assets/images/ReceiptWallet.png"
 import subscriptionTracker from "../../assets/images/SubscriptionApp.png"
 import nersappIcon from "../../assets/images/nersapp_500.png"
@@ -97,8 +98,19 @@ const liveApps = {
       image: receiptWallet,
       technologies: ["React Native", "Expo", "Supabase", "Firebase", "TypeScript"],
     //   appStoreLink: "#",
-      playStoreLink: "https://play.google.com/store/apps/details?id=com.victorgis.receiptwallet",
-      downloads: "20+",
+      playStoreLink: "", //"https://play.google.com/store/apps/details?id=com.victorgis.receiptwallet",
+      downloads: "Join Mobile Testers (Android)", // Placeholder until we have actual download numbers  
+    },
+
+    {
+      title: "Bible Regimen",
+      description:
+        "Build a consistent relationship with God through structured reading regimens, heartfelt devotionals, and a prayer life.",
+      image: regimenbible,
+      technologies: ["React Native", "Expo", "Supabase", "Firebase", "TypeScript"],
+    //   appStoreLink: "#",
+      playStoreLink: "", //"https://play.google.com/store/apps/details?id=com.victorgis.bibleregimen",
+      downloads: "Join Mobile Testers (Android)", // Placeholder until we have actual download numbers
     },
     
   ],
@@ -128,15 +140,15 @@ const liveApps = {
     //   liveLink: "https://smartfollowpro.netlify.app/",
     //   users: "1K+ businesses",
     // },
-    {
-      title: "Breics",
-      description:
-        "Real estate wealth management platform providing secure investment access to everyone.",
-      image: breics,
-      technologies: ["Nuxt.js", "PHP", "Google Maps", "Vuex"],
-      liveLink: "https://breics.com",
-      users: "1K+",
-    },
+    // {
+    //   title: "Breics",
+    //   description:
+    //     "Real estate wealth management platform providing secure investment access to everyone.",
+    //   image: breics,
+    //   technologies: ["Nuxt.js", "PHP", "Google Maps", "Vuex"],
+    //   liveLink: "https://breics.com",
+    //   users: "1K+",
+    // },
     {
       title: "Queue Marshal",
       description:
