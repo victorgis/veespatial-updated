@@ -51,12 +51,12 @@ function ReplyGenie() {
             Engage with your audience, build authority, and save hours of manual typing.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            {/* <a href="https://chromewebstore.google.com/detail/fbiahimcnacfnbiefnopkchegbkpbhke?utm_source=item-share-cb" target="_blank" rel="noopener noreferrer">
+            <a href="https://chromewebstore.google.com/detail/fbiahimcnacfnbiefnopkchegbkpbhke?utm_source=item-share-cb" target="_blank" rel="noopener noreferrer">
               <button className="flex items-center justify-center gap-2 bg-slate-900 dark:bg-blue-600 hover:bg-slate-800 dark:hover:bg-blue-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all transform hover:scale-105">
                 <Chrome size={20} />
                 Add to Chrome — It's Free
               </button>
-            </a> */}
+            </a>
             
             <a href="https://www.youtube.com/watch?v=HslBQUAVnHc" target="_blank" rel="noopener noreferrer">
               <button  className="flex items-center justify-center gap-2 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 px-8 py-4 rounded-xl font-bold text-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition-all">
@@ -150,12 +150,12 @@ function ReplyGenie() {
           <p className="text-blue-100 text-xl mb-8">
             Join founders, marketers, and creators who save 5+ hours a week with ReplyGenie.
           </p>
-          {/* <a href="https://chromewebstore.google.com/detail/fbiahimcnacfnbiefnopkchegbkpbhke?utm_source=item-share-cb">
+          <a href="https://chromewebstore.google.com/detail/fbiahimcnacfnbiefnopkchegbkpbhke?utm_source=item-share-cb">
             <button className="bg-white text-blue-600 px-10 py-4 rounded-xl font-bold text-lg hover:bg-blue-50 transition-colors flex items-center gap-2 mx-auto">
               Get Started for Free
               <ArrowRight size={20} />
             </button>
-          </a> */}
+          </a>
         </div>
       </section>
 

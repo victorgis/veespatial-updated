@@ -27,6 +27,7 @@ const liveApps = {
       image: replygenie,
       technologies: ["AI", "TypeScript", "Chrome API", "Local Storage", "Supabase"],
       chromeStoreLink: "https://chromewebstore.google.com/detail/fbiahimcnacfnbiefnopkchegbkpbhke?utm_source=item-share-cb",
+      webpage: "/replygenie",
     //   users: "5K+ users",
     },
     {
