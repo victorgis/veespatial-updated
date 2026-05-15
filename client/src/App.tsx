@@ -13,6 +13,7 @@ import Contacts from "./pages/contacts";
 import ChromePaymentSuccess from "./pages/chrome-payment-success";
 import ReplyGenie from "./apps-landing-pages/replygenie-chrome-extension";
 import LiveApps from "./pages/liveapps"
+import Services from "./pages/services";
 import ReceiptWalletChromeExtension from "./apps-landing-pages/receiptwallet-chrome-extension";
 import { FloatingWhatsApp } from "./components/whatsapp-section";
 import BibleRegimen from "./apps-landing-pages/bibleregimen";
@@ -29,6 +30,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/store" element={<Store />} />
           <Route path="/courses" element={<Courses />} />
+          <Route path="/services" element={<Services />} />
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/chrome-payment-success" element={< ChromePaymentSuccess/>} />
           <Route path="/replygenie" element={< ReplyGenie/>} />

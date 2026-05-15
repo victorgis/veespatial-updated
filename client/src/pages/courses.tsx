@@ -3,6 +3,7 @@ import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
 import Navigation from "@/components/navigation";
 import { useEffect } from "react";
+import Seo from "@/components/seo";
 
 function courses() {
   useEffect(() => {
@@ -14,6 +15,11 @@ function courses() {
   }, []);
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 transition-colors duration-300">
+      <Seo
+        title="Courses"
+        description="Upcoming courses from Veespatial on GIS, remote sensing, software development, and practical geospatial workflows."
+        keywords="GIS courses, remote sensing training, software development mentorship, Veespatial academy"
+      />
       <Navigation />
       <div className="mt-10"></div>
       <ComingSoon />

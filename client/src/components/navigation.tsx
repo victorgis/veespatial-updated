@@ -55,6 +55,11 @@ export default function Navigation() {
                 About
               </button>
             </Link>
+            <Link to="/services">
+              <button className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                Services
+              </button>
+            </Link>
             <Link to="/liveapps">
               <button className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                 Live Apps
@@ -134,6 +139,11 @@ export default function Navigation() {
             <Link to="/about">
               <button className="block w-full text-left px-3 py-2 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400">
                 About
+              </button>
+            </Link>
+            <Link to="/services">
+              <button className="block w-full text-left px-3 py-2 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400">
+                Services
               </button>
             </Link>
             <Link to="/liveapps">

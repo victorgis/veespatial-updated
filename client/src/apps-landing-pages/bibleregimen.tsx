@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
 import Navigation from "@/components/navigation";
+import Seo from "@/components/seo";
 import { 
   BookOpen, 
   Zap, 
@@ -33,6 +34,11 @@ function BibleRegimen() {
   
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 transition-colors duration-300">
+      <Seo
+        title="Bible Regimen App"
+        description="Bible Regimen helps you build consistent spiritual discipline with reading plans, devotionals, and prayer routines."
+        keywords="Bible Regimen, devotional app, christian app, spiritual discipline app"
+      />
       <Navigation />
 
       {/* Hero Section */}

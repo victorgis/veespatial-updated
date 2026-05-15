@@ -16,6 +16,7 @@ import { QuickFixCTA } from "@/components/whatsapp-section";
 import Footer from "@/components/footer";
 import ContactSection from "@/components/contact-section";
 import { useEffect } from "react";
+import Seo from "@/components/seo";
 // import crossSafe from "../../assets/images/crossSafe.png";
 // import eoc from "../../assets/images/eoc.png";
 
@@ -219,6 +220,11 @@ export default function LiveAppsSection() {
   }, []);
   return (
     <>
+      <Seo
+        title="Live Apps"
+        description="Explore live apps and products built by Veespatial across mobile, web, and Chrome extensions."
+        keywords="live apps, mobile apps, web apps, chrome extensions, Veespatial portfolio"
+      />
       <section id="live-apps" className="py-20 bg-white dark:bg-slate-900">
       <div className="max-w-7xl mt-20 mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}

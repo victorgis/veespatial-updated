@@ -32,6 +32,8 @@ import SkillsSection from "@/components/skills-section";
 import AboutSection from "@/components/about-section";
 import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
+import ServicesSection from "@/components/services-section";
+import Seo from "@/components/seo";
 
 // Import the new components
 import { FloatingWhatsApp, QuickFixCTA } from "@/components/whatsapp-section";
@@ -41,6 +43,11 @@ import { ViewLiveApps } from "@/components/view-live-apps";
 export default function Home() {
   return (
     <div className="relative min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 transition-colors duration-300">
+      <Seo
+        title="Geospatial Software Engineering"
+        description="Victor Essang (Veespatial) builds ROI-driven geospatial, mobile, web, and AI solutions for startups, enterprises, and public sector teams."
+        keywords="Veespatial, geospatial consultant, GIS expert, remote sensing, web development, mobile development, AI automation, Nigeria"
+      />
       <Navigation />
       <HeroSection />
       
@@ -49,9 +56,10 @@ export default function Home() {
 
       <ViewLiveApps />
       
-
+      <ServicesSection compact />
       <ProjectsSection />
       <SkillsSection />
+      
       <AboutSection />
       <ContactSection />
       <Footer />

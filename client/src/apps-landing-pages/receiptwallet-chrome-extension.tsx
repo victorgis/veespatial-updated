@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
 import Navigation from "@/components/navigation";
+import Seo from "@/components/seo";
 import { 
   Receipt, 
   Zap, 
@@ -39,6 +40,11 @@ function ReceiptWalletChromeExtension() {
   
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 transition-colors duration-300">
+      <Seo
+        title="Receipt Wallet"
+        description="Receipt Wallet saves online shopping receipts directly to Google Drive so you stay organized across web and mobile."
+        keywords="Receipt Wallet, chrome extension receipts, receipt organizer, Google Drive receipts"
+      />
       <Navigation />
 
       {/* Hero Section */}

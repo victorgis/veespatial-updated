@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import ContactSection from "@/components/contact-section";
 import Footer from "@/components/footer";
 import Navigation from "@/components/navigation";
+import Seo from "@/components/seo";
 import { 
   MessageSquare, 
   Zap, 
@@ -34,6 +35,11 @@ function ReplyGenie() {
   
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 transition-colors duration-300">
+      <Seo
+        title="ReplyGenie Chrome Extension"
+        description="ReplyGenie helps you write smarter replies on X and LinkedIn with AI-powered, context-aware response generation."
+        keywords="ReplyGenie, chrome extension, AI replies, LinkedIn replies, X Twitter replies"
+      />
       <Navigation />
 
       {/* Hero Section */}

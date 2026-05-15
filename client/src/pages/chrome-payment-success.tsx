@@ -3,6 +3,7 @@ import Footer from "@/components/footer";
 import Navigation from "@/components/navigation";
 import ProjectsSection from "@/components/projects-section";
 import { useEffect } from "react";
+import Seo from "@/components/seo";
 
 function chromePaymentSuccess() {
 
@@ -39,6 +40,12 @@ function chromePaymentSuccess() {
 
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 transition-colors duration-300">
+      <Seo
+        title="Payment Successful"
+        description="Payment successful. Your purchase was completed and your features are now ready to use."
+        keywords="payment successful, chrome extension payment, veespatial checkout"
+        noindex
+      />
       <Navigation />
       <div className="py-52">
         <div className="text-center">
