@@ -86,6 +86,12 @@ export default function Navigation() {
                 Contact
               </button>
             </Link>
+            <a
+              href="https://app.veespatial.com"
+              className="text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+            >
+              Studio
+            </a>
           </div>
 
           <div className="flex items-center space-x-4">
@@ -171,6 +177,12 @@ export default function Navigation() {
                 Contact
               </button>
             </Link>
+            <a
+              href="https://app.veespatial.com"
+              className="block w-full text-left px-3 py-2 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400"
+            >
+              Veespatial Global
+            </a>
           </div>
         </div>
       )}

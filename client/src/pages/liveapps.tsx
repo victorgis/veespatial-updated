@@ -12,6 +12,7 @@ import nersappIcon from "../../assets/images/nersapp_500.png"
 import breics from "../../assets/images/Breics.png";
 import cocDevotional from "../../assets/images/COC.png";
 import queueMarshalIcon from "../../assets/images/queuemarshal.png";
+import docucraft from "../../assets/images/docucraft.jpg";
 import { QuickFixCTA } from "@/components/whatsapp-section";
 import Footer from "@/components/footer";
 import ContactSection from "@/components/contact-section";
@@ -118,6 +119,14 @@ const liveApps = {
   ],
   web: [
     {
+      title: "DocuCraft",
+      description: "Private in-browser PDF editor and signer from Veespatial Global. Sign, annotate, and export without uploading files.",
+      image: docucraft,
+      technologies: ["TypeScript", "React", "PDF", "AI"],
+      liveLink: "https://app.veespatial.com/pdf-editor",
+      users: "Veespatial Global product",
+    },
+    {
       title: "SITE",
       description: "Enterprise geospatial factory positioning system with advanced analytics",
       image: releaf,
@@ -193,6 +202,8 @@ const techColors = {
   PHP: "bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200",
   Vuex: "bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200",
   SQL: "bg-orange-100 dark:bg-orange-900 text-orange-800 dark:text-orange-200",
+  PDF: "bg-indigo-100 dark:bg-indigo-900 text-indigo-800 dark:text-indigo-200",
+  React: "bg-sky-100 dark:bg-sky-900 text-sky-800 dark:text-sky-200",
   ArcGIS: "bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200",
   "ArcGIS Online": "bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200",
 };
@@ -222,8 +233,8 @@ export default function LiveAppsSection() {
     <>
       <Seo
         title="Live Apps"
-        description="Explore live apps and products built by Veespatial across mobile, web, and Chrome extensions."
-        keywords="live apps, mobile apps, web apps, chrome extensions, Veespatial portfolio"
+        description="Explore live apps and products built by Victor Essang and Veespatial Global across mobile, web, Chrome, and DocuCraft PDF tools."
+        keywords="live apps, mobile apps, web apps, chrome extensions, DocuCraft, Veespatial portfolio, Veespatial Global"
       />
       <section id="live-apps" className="py-20 bg-white dark:bg-slate-900">
       <div className="max-w-7xl mt-20 mx-auto px-4 sm:px-6 lg:px-8">

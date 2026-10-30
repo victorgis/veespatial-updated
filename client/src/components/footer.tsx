@@ -41,7 +41,13 @@ export default function Footer() {
         >
           <div className="mb-4 md:mb-0">
             <p className="text-slate-400">
-              &copy; 2025 Victor Essang. All rights reserved.
+              &copy; {new Date().getFullYear()} Victor Essang.{" "}
+              <a
+                href="https://app.veespatial.com"
+                className="text-slate-300 hover:text-white"
+              >
+                Veespatial Global
+              </a>
             </p>
           </div>
 

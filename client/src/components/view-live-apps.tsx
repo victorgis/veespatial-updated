@@ -37,7 +37,10 @@ export const ViewLiveApps = () => {
         >
           Don't just take my word for it. Explore a curated collection of my 
           <span className="text-blue-600 dark:text-blue-400 font-semibold"> live applications </span> 
-          ranging from AI integrations and GIS dashboards to full-stack web solutions.
+          ranging from AI integrations and GIS dashboards to studio products on{" "}
+          <a href="https://app.veespatial.com" className="font-semibold text-blue-600 underline-offset-4 hover:underline dark:text-blue-400">
+            app.veespatial.com
+          </a>.
         </motion.p>
 
         {/* --- FIXED WRAPPER FOR CENTERING --- */}

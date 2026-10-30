@@ -189,6 +189,11 @@ export default function Seo({
       url: BASE_URL,
       image: DEFAULT_IMAGE,
       jobTitle: "Software Engineer & Geospatial Analyst",
+      worksFor: {
+        "@type": "Organization",
+        name: "Veespatial Global",
+        url: "https://app.veespatial.com",
+      },
       sameAs: [
         "https://linkedin.com/in/victoressang",
         "https://github.com/victorgis",
@@ -229,7 +234,13 @@ export default function Seo({
         "@type": "Person",
         name: "Victor Essang",
       },
+      subOrganization: {
+        "@type": "Organization",
+        name: "Veespatial Global",
+        url: "https://app.veespatial.com",
+      },
       sameAs: [
+        "https://app.veespatial.com",
         "https://linkedin.com/in/victoressang",
         "https://github.com/victorgis",
         "https://x.com/victor_gis",
