@@ -17,7 +17,7 @@ function about() {
     <div className="min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 transition-colors duration-300">
       <Seo
         title="About Victor Essang"
-        description="Learn about Victor Essang, a software developer and geospatial analyst focused on mobile apps, web platforms, GIS intelligence, and remote sensing."
+        description="Learn about Victor Essang, a software developer and GIS expert focused on mobile apps, web platforms, GIS intelligence, and remote sensing."
         keywords="about Victor Essang, Veespatial profile, software engineer Nigeria, geospatial analyst, GIS consultant"
       />
       <Navigation />

@@ -46,22 +46,22 @@ export default function Home() {
     <div className="relative min-h-screen bg-slate-50 dark:bg-slate-900 text-slate-900 dark:text-slate-100 transition-colors duration-300">
       <Seo
         title="Geospatial Software Engineering"
-        description="Victor Essang (Veespatial) builds ROI-driven geospatial, mobile, web, and AI solutions for startups, enterprises, and public sector teams."
+        description="Victor Essang a GIS Expert builds ROI-driven geospatial, mobile, web, and AI solutions for startups, enterprises, and public sector teams."
         keywords="Veespatial, geospatial consultant, GIS expert, remote sensing, web development, mobile development, AI automation, Nigeria"
       />
       <Navigation />
       <HeroSection />
       <StudioBanner />
-      
+
       {/* 1. Added the Quick Fix Section here */}
-      <QuickFixCTA /> 
+      <QuickFixCTA />
 
       <ViewLiveApps />
-      
+
       <ServicesSection compact />
       <ProjectsSection />
       <SkillsSection />
-      
+
       <AboutSection />
       <ContactSection />
       <Footer />
