@@ -18,6 +18,8 @@ import ReceiptWalletChromeExtension from "./apps-landing-pages/receiptwallet-chr
 import { FloatingWhatsApp } from "./components/whatsapp-section";
 import BibleRegimen from "./apps-landing-pages/bibleregimen";
 import SubscriptionTracker from "./apps-landing-pages/subscriptiontracker";
+import HeraldsNation from "./apps-landing-pages/heraldsnation";
+import Chalet from "./apps-landing-pages/chalet";
 
 function App() {
   return (
@@ -37,6 +39,8 @@ function App() {
           <Route path="/receiptwallet" element={< ReceiptWalletChromeExtension />} />
           <Route path="/bibleregimen" element={< BibleRegimen />} />
           <Route path="/subscriptiontracker" element={< SubscriptionTracker />} />
+          <Route path="/heraldsnation" element={<HeraldsNation />} />
+          <Route path="/chalet" element={<Chalet />} />
           <Route path="/liveapps" element={< LiveApps/>} />
           {/* Add Store and Contact routes here similarly */}
         </Routes>

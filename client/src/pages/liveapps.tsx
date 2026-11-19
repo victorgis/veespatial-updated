@@ -18,11 +18,11 @@ import Footer from "@/components/footer";
 import ContactSection from "@/components/contact-section";
 import { useEffect } from "react";
 import Seo from "@/components/seo";
-// import crossSafe from "../../assets/images/crossSafe.png";
-// import eoc from "../../assets/images/eoc.png";
+import Heraldsnation from "../../assets/images/heraldsnation.png";
+import Chalet from "../../assets/images/chalet.png";
 
 const liveApps = {
-    chrome: [
+  chrome: [
     {
       title: "ReplyGenie",
       description: "This Chrome extension helps you craft thoughtful responses to posts on X (formerly Twitter) and LinkedIn.",
@@ -30,7 +30,7 @@ const liveApps = {
       technologies: ["AI", "TypeScript", "Chrome API", "Local Storage", "Supabase"],
       chromeStoreLink: "https://chromewebstore.google.com/detail/fbiahimcnacfnbiefnopkchegbkpbhke?utm_source=item-share-cb",
       webpage: "/replygenie",
-    //   users: "5K+ users",
+      //   users: "5K+ users",
     },
     {
       title: "Receipt Wallet",
@@ -39,20 +39,21 @@ const liveApps = {
       technologies: ["TypeScript", "Chrome API", "Google Drive", "Supabase"],
       chromeStoreLink: "https://chromewebstore.google.com/detail/ldlenndfbagaabopndhijodimjbliiil?utm_source=item-share-cb",
       webpage: "/receiptwallet",
-    //   users: "3K+ users",
+      //   users: "3K+ users",
     },
   ],
   mobile: [
-    // {
-    //   title: "CrossSafe",
-    //   description:
-    //     "Safe road crossing and geofencing mobile app with real-time alerts and integrated mapping services.",
-    //   image: crossSafe,
-    //   technologies: ["React Native", "Expo", "Google Maps", "Firebase", "TypeScript"],
-    //   appStoreLink: "#",
-    //   playStoreLink: "#",
-    //   downloads: "10K+",
-    // },
+    {
+      title: "HeraldsNation",
+      description:
+        "Grow in faith with HeraldsNation. Access live teachings, e-books, songs & more.",
+      image: Heraldsnation,
+      technologies: ["React Native", "Expo", "Google Maps", "Supabase", "TypeScript"],
+      // appStoreLink: "#",
+      playStoreLink: "https://play.google.com/store/apps/details?id=com.victorgis.heraldsnation",
+      webpage: "/heraldsnation",
+      downloads: "100+",
+    },
     {
       title: "FlexxyDrive",
       description:
@@ -64,12 +65,23 @@ const liveApps = {
       downloads: "25K+",
     },
     {
+      title: "Chalet",
+      description:
+        "Connecting and managing relationships between property owners, real estate agents, tenants/clients and caretakers.",
+      image: Chalet,
+      technologies: ["React Native", "Mapbox", "Supabase", "TypeScript"],
+      // appStoreLink: "https://apps.apple.com/app/id6747836375",
+      playStoreLink: "https://play.google.com/store/apps/details?id=com.victorgis.chalet",
+      webpage: "/chalet",
+      downloads: "200+",
+    },
+    {
       title: "COC Devotional & Hymns",
       description:
         "Mobile app for the Christ Of Church (COC) community, providing daily devotionals, and hymns.",
       image: cocDevotional,
       technologies: ["React Native", "Expo", "Firebase", "TypeScript"],
-    //   appStoreLink: "#",
+      //   appStoreLink: "#",
       playStoreLink: "https://play.google.com/store/apps/details?id=com.coc.coc_devotional_and_hymn",
       downloads: "3K+",
     },
@@ -79,7 +91,7 @@ const liveApps = {
         "Manage your academic institution with Nersapp - your all-in-one app for schedules, grades, and results.",
       image: nersappIcon,
       technologies: ["React Native", "Expo", "TypeScript"],
-    //   appStoreLink: "#",
+      //   appStoreLink: "#",
       playStoreLink: "https://play.google.com/store/apps/details?id=com.victorgis.nersapp",
       downloads: "200+",
     },
@@ -89,18 +101,18 @@ const liveApps = {
         "Tracks the expiration dates of your online subscriptions and sends you timely reminders to avoid unexpected charges.",
       image: subscriptionTracker,
       technologies: ["React Native", "Expo", "Supabase", "Firebase", "TypeScript"],
-    //   appStoreLink: "#",
+      //   appStoreLink: "#",
       playStoreLink: "https://play.google.com/store/apps/details?id=com.victorgis.subscriptiontrackerapp",
       downloads: "20+",
     },
-    
+
     {
       title: "Receipt Wallet",
       description:
         "Stores your online shopping receipts in Google Drive, accessible from both mobile and desktop.",
       image: receiptWallet,
       technologies: ["React Native", "Expo", "Supabase", "Firebase", "TypeScript"],
-    //   appStoreLink: "#",
+      //   appStoreLink: "#",
       playStoreLink: "", //"https://play.google.com/store/apps/details?id=com.victorgis.receiptwallet",
       downloads: "Join Mobile Testers (Android)", // Placeholder until we have actual download numbers  
     },
@@ -111,11 +123,11 @@ const liveApps = {
         "Build a consistent relationship with God through structured reading regimens, heartfelt devotionals, and a prayer life.",
       image: regimenbible,
       technologies: ["React Native", "Expo", "Supabase", "Firebase", "TypeScript"],
-    //   appStoreLink: "#",
+      //   appStoreLink: "#",
       playStoreLink: "", //"https://play.google.com/store/apps/details?id=com.victorgis.bibleregimen",
       downloads: "Join Mobile Testers (Android)", // Placeholder until we have actual download numbers
     },
-    
+
   ],
   web: [
     {
@@ -170,7 +182,7 @@ const liveApps = {
       users: "1K+",
     },
   ],
-  
+
 };
 
 const techColors = {
@@ -237,192 +249,191 @@ export default function LiveAppsSection() {
         keywords="live apps, mobile apps, web apps, chrome extensions, DocuCraft, Veespatial portfolio, Veespatial Global"
       />
       <section id="live-apps" className="py-20 bg-white dark:bg-slate-900">
-      <div className="max-w-7xl mt-20 mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <div className="text-center mb-16">
-          <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
-          >
-            Live Applications
-          </motion.h2>
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ delay: 0.2 }}
-            className="text-xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto"
-          >
-            Production applications serving real users across mobile, web, and browser platforms
-          </motion.p>
-        </div>
+        <div className="max-w-7xl mt-20 mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Header */}
+          <div className="text-center mb-16">
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
+            >
+              Live Applications
+            </motion.h2>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+              className="text-xl text-slate-600 dark:text-slate-400 max-w-3xl mx-auto"
+            >
+              Production applications serving real users across mobile, web, and browser platforms
+            </motion.p>
+          </div>
 
-        {/* Categories */}
-        {Object.entries(liveApps).map(([category, apps], categoryIndex) => {
-          const Icon = categoryIcons[category as keyof typeof categoryIcons];
-          return (
-            <div key={category} className="mb-16">
-              {/* Category Header */}
-              <motion.div
-                initial={{ opacity: 0, x: -20 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: categoryIndex * 0.1 }}
-                className="flex items-center gap-3 mb-8"
-              >
-                <div className="p-2 bg-blue-100 dark:bg-blue-900 rounded-lg">
-                  <Icon className="w-6 h-6 text-blue-600 dark:text-blue-300" />
-                </div>
-                <h3 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-100">
-                  {categoryTitles[category as keyof typeof categoryTitles]}
-                </h3>
-                <div className="flex-grow h-px bg-slate-200 dark:bg-slate-700 ml-4"></div>
-              </motion.div>
+          {/* Categories */}
+          {Object.entries(liveApps).map(([category, apps], categoryIndex) => {
+            const Icon = categoryIcons[category as keyof typeof categoryIcons];
+            return (
+              <div key={category} className="mb-16">
+                {/* Category Header */}
+                <motion.div
+                  initial={{ opacity: 0, x: -20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: categoryIndex * 0.1 }}
+                  className="flex items-center gap-3 mb-8"
+                >
+                  <div className="p-2 bg-blue-100 dark:bg-blue-900 rounded-lg">
+                    <Icon className="w-6 h-6 text-blue-600 dark:text-blue-300" />
+                  </div>
+                  <h3 className="text-2xl md:text-3xl font-bold text-slate-900 dark:text-slate-100">
+                    {categoryTitles[category as keyof typeof categoryTitles]}
+                  </h3>
+                  <div className="flex-grow h-px bg-slate-200 dark:bg-slate-700 ml-4"></div>
+                </motion.div>
 
-              {/* Apps Grid */}
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {apps.map((app: any, index: number) => (
-                  <motion.div
-                    key={app.title}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: index * 0.1 }}
-                  >
-                    <Card className="bg-slate-50 dark:bg-slate-800 rounded-xl shadow-lg hover:shadow-2xl overflow-hidden h-full transition-all duration-300 hover:-translate-y-1">
-                      <div className="aspect-video overflow-hidden relative">
-                        <img
-                          src={app.image}
-                          alt={app.title}
-                          className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-                        />
-                        {/* Live Badge */}
-                        <div className="absolute top-3 right-3">
-                          <span className="px-3 py-1 bg-green-500 text-white text-xs font-semibold rounded-full flex items-center gap-1">
-                            <span className="w-2 h-2 bg-white rounded-full animate-pulse"></span>
-                            LIVE
-                          </span>
+                {/* Apps Grid */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  {apps.map((app: any, index: number) => (
+                    <motion.div
+                      key={app.title}
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: index * 0.1 }}
+                    >
+                      <Card className="bg-slate-50 dark:bg-slate-800 rounded-xl shadow-lg hover:shadow-2xl overflow-hidden h-full transition-all duration-300 hover:-translate-y-1">
+                        <div className="aspect-video overflow-hidden relative">
+                          <img
+                            src={app.image}
+                            alt={app.title}
+                            className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                          />
+                          {/* Live Badge */}
+                          <div className="absolute top-3 right-3">
+                            <span className="px-3 py-1 bg-green-500 text-white text-xs font-semibold rounded-full flex items-center gap-1">
+                              <span className="w-2 h-2 bg-white rounded-full animate-pulse"></span>
+                              LIVE
+                            </span>
+                          </div>
                         </div>
-                      </div>
-                      <CardContent className="p-6">
-                        <div className="flex flex-col h-full">
-                          <h4 className="text-xl font-bold mb-2 text-slate-900 dark:text-slate-100">
-                            {app.title}
-                          </h4>
-                          <p className="text-slate-600 dark:text-slate-400 mb-4 flex-grow">
-                            {app.description}
-                          </p>
+                        <CardContent className="p-6">
+                          <div className="flex flex-col h-full">
+                            <h4 className="text-xl font-bold mb-2 text-slate-900 dark:text-slate-100">
+                              {app.title}
+                            </h4>
+                            <p className="text-slate-600 dark:text-slate-400 mb-4 flex-grow">
+                              {app.description}
+                            </p>
 
-                          {/* Stats */}
-                          {(app.downloads || app.users) && (
-                            <div className="mb-4 px-3 py-2 bg-blue-50 dark:bg-blue-900/30 rounded-lg">
-                              <p className="text-sm font-medium text-blue-700 dark:text-blue-300">
-                                {app.downloads || app.users}
-                              </p>
+                            {/* Stats */}
+                            {(app.downloads || app.users) && (
+                              <div className="mb-4 px-3 py-2 bg-blue-50 dark:bg-blue-900/30 rounded-lg">
+                                <p className="text-sm font-medium text-blue-700 dark:text-blue-300">
+                                  {app.downloads || app.users}
+                                </p>
+                              </div>
+                            )}
+
+                            {/* Technologies */}
+                            <div className="flex flex-wrap gap-2 mb-4">
+                              {app.technologies?.map((tech: string) => (
+                                <span
+                                  key={tech}
+                                  className={`px-3 py-1 text-xs rounded-full font-medium ${techColors[tech as keyof typeof techColors] ||
+                                    "bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200"
+                                    }`}
+                                >
+                                  {tech}
+                                </span>
+                              ))}
                             </div>
-                          )}
 
-                          {/* Technologies */}
-                          <div className="flex flex-wrap gap-2 mb-4">
-                            {app.technologies?.map((tech: string) => (
-                              <span
-                                key={tech}
-                                className={`px-3 py-1 text-xs rounded-full font-medium ${
-                                  techColors[tech as keyof typeof techColors] ||
-                                  "bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200"
-                                }`}
-                              >
-                                {tech}
-                              </span>
-                            ))}
+                            {/* Action Buttons */}
+                            <div className="flex flex-wrap gap-2 mt-auto">
+                              {app.appStoreLink && (
+                                <Button variant="outline" size="sm" asChild className="flex-1">
+                                  <a
+                                    href={app.appStoreLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center justify-center gap-2"
+                                  >
+                                    <Download className="w-4 h-4" />
+                                    App Store
+                                  </a>
+                                </Button>
+                              )}
+                              {app.playStoreLink && (
+                                <Button variant="outline" size="sm" asChild className="flex-1">
+                                  <a
+                                    href={app.playStoreLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center justify-center gap-2"
+                                  >
+                                    <Download className="w-4 h-4" />
+                                    Play Store
+                                  </a>
+                                </Button>
+                              )}
+                              {app.liveLink && (
+                                <Button variant="default" size="sm" asChild className="flex-1">
+                                  <a
+                                    href={app.liveLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center justify-center gap-2"
+                                  >
+                                    <ExternalLink className="w-4 h-4" />
+                                    Visit Site
+                                  </a>
+                                </Button>
+                              )}
+                              {app.chromeStoreLink && (
+                                <Button variant="outline" size="sm" asChild className="flex-1">
+                                  <a
+                                    href={app.chromeStoreLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center justify-center gap-2"
+                                  >
+                                    <Chrome className="w-4 h-4" />
+                                    Add to Chrome
+                                  </a>
+                                </Button>
+                              )}
+                              {app.webpage && (
+                                <Button variant="default" size="sm" asChild className="flex-1">
+                                  <a
+                                    href={app.webpage}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-flex items-center justify-center gap-2"
+                                  >
+                                    <ExternalLink className="w-4 h-4" />
+                                    Visit Page
+                                  </a>
+                                </Button>
+                              )}
+                            </div>
                           </div>
-
-                          {/* Action Buttons */}
-                          <div className="flex flex-wrap gap-2 mt-auto">
-                            {app.appStoreLink && (
-                              <Button variant="outline" size="sm" asChild className="flex-1">
-                                <a
-                                  href={app.appStoreLink}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="inline-flex items-center justify-center gap-2"
-                                >
-                                  <Download className="w-4 h-4" />
-                                  App Store
-                                </a>
-                              </Button>
-                            )}
-                            {app.playStoreLink && (
-                              <Button variant="outline" size="sm" asChild className="flex-1">
-                                <a
-                                  href={app.playStoreLink}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="inline-flex items-center justify-center gap-2"
-                                >
-                                  <Download className="w-4 h-4" />
-                                  Play Store
-                                </a>
-                              </Button>
-                            )}
-                            {app.liveLink && (
-                              <Button variant="default" size="sm" asChild className="flex-1">
-                                <a
-                                  href={app.liveLink}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="inline-flex items-center justify-center gap-2"
-                                >
-                                  <ExternalLink className="w-4 h-4" />
-                                  Visit Site
-                                </a>
-                              </Button>
-                            )}
-                            {app.chromeStoreLink && (
-                              <Button variant="outline" size="sm" asChild className="flex-1">
-                                <a
-                                  href={app.chromeStoreLink}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="inline-flex items-center justify-center gap-2"
-                                >
-                                  <Chrome className="w-4 h-4" />
-                                  Add to Chrome
-                                </a>
-                              </Button>
-                            )}
-                            {app.webpage && (
-                              <Button variant="default" size="sm" asChild className="flex-1">
-                                <a
-                                  href={app.webpage}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  className="inline-flex items-center justify-center gap-2"
-                                >
-                                  <Chrome className="w-4 h-4" />
-                                  Visit Page
-                                </a>
-                              </Button>
-                            )}
-                          </div>
-                        </div>
-                      </CardContent>
-                    </Card>
-                  </motion.div>
-                ))}
+                        </CardContent>
+                      </Card>
+                    </motion.div>
+                  ))}
+                </div>
               </div>
-            </div>
-          );
-        })}
-        <QuickFixCTA />
-        
-      </div>
-    </section>
-    <ContactSection />
-    <Footer />
+            );
+          })}
+          <QuickFixCTA />
+
+        </div>
+      </section>
+      <ContactSection />
+      <Footer />
     </>
-    
+
   );
 }

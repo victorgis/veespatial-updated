@@ -73,6 +73,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://veespatial.com/heraldsnation</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://veespatial.com/chalet</loc>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://app.veespatial.com/</loc>
     <lastmod>2026-10-30</lastmod>
     <changefreq>weekly</changefreq>

@@ -57,6 +57,24 @@ const softwareApplicationsByRoute: Record<string, Array<Record<string, unknown>>
       url: `${BASE_URL}/bibleregimen`,
     },
   ],
+  "/heraldsnation": [
+    {
+      "@type": "SoftwareApplication",
+      name: "HeraldsNation",
+      applicationCategory: "MobileApplication",
+      operatingSystem: "Android",
+      url: `${BASE_URL}/heraldsnation`,
+    },
+  ],
+  "/chalet": [
+    {
+      "@type": "SoftwareApplication",
+      name: "Chalet",
+      applicationCategory: "MobileApplication",
+      operatingSystem: "Android",
+      url: `${BASE_URL}/chalet`,
+    },
+  ],
 };
 
 const breadcrumbNamesByPath: Record<string, string> = {
@@ -72,6 +90,8 @@ const breadcrumbNamesByPath: Record<string, string> = {
   "/receiptwallet": "Receipt Wallet",
   "/subscriptiontracker": "Subscription Tracker",
   "/bibleregimen": "Bible Regimen",
+  "/heraldsnation": "HeraldsNation",
+  "/chalet": "Chalet",
   "/chrome-payment-success": "Payment Success",
 };
 
