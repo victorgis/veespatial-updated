@@ -1,3 +1,7 @@
+[build.environment]
+  # Vite 8 and @vitejs/plugin-react 6 require Node 20.19+ or 22.12+.
+  NODE_VERSION = "22"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
