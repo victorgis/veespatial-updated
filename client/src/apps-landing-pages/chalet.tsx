@@ -353,14 +353,15 @@ function Chalet() {
                 We believe in full transparency and control over your personal information. In accordance with <strong>Google Play&apos;s Account Deletion Policy</strong> and global privacy frameworks (including GDPR, CCPA, and LGPD), users of <strong>Chalet</strong> have the unconditional right to request the permanent deletion of their account and all associated personal data.
               </p>
               <p className="text-base leading-relaxed">
-                You do <strong>not</strong> need to have the Chalet application installed on your device to submit an account deletion request. You can initiate deletion through either of the two approved methods described below:
+                You do <strong>not</strong> need to have the Chalet application installed on your device to submit an account deletion request. You can initiate deletion through method described below:
+                {/* either of the two approved methods described below: */}
               </p>
             </div>
 
             {/* Step-by-Step Deletion Methods (In-App vs Web) */}
             <div className="grid gap-6 md:grid-cols-2">
               {/* Method 1: In-App */}
-              <div className="flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-700 dark:bg-slate-900">
+              {/* <div className="flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-700 dark:bg-slate-900">
                 <div>
                   <div className="mb-4 flex items-center gap-2.5 text-lg font-bold text-slate-900 dark:text-slate-100">
                     <div className="rounded-lg bg-emerald-100 p-2 text-emerald-700 dark:bg-emerald-900/50 dark:text-emerald-300">
@@ -396,7 +397,7 @@ function Chalet() {
                   <span className="font-semibold text-slate-700 dark:text-slate-300">Instant Access Revocation: </span>
                   Sessions are terminated immediately once confirmed inside the app.
                 </div>
-              </div>
+              </div> */}
 
               {/* Method 2: Online Web Request */}
               <div className="flex flex-col justify-between rounded-2xl border border-slate-200 bg-white p-6 shadow-sm dark:border-slate-700 dark:bg-slate-900">
@@ -405,7 +406,8 @@ function Chalet() {
                     <div className="rounded-lg bg-rose-100 p-2 text-rose-700 dark:bg-rose-900/50 dark:text-rose-300">
                       <Mail size={20} />
                     </div>
-                    <span>Method 2: Web / Online Request</span>
+                    <span>Web / Online Request</span>
+                    {/* <span>Method 2: Web / Online Request</span> */}
                   </div>
                   <p className="mb-4 text-sm text-slate-500 dark:text-slate-400">
                     If you have uninstalled the Chalet app, lost your device, or prefer requesting online:
