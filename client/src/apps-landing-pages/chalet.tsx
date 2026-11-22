@@ -25,11 +25,11 @@ import {
 } from "lucide-react";
 
 const PLAY_STORE = "https://play.google.com/store/apps/details?id=com.victorgis.chalet";
-const BRAND_PAGE = "https://app.veespatial.com/chalet";
+const BRAND_PAGE = "https://veespatial.com/chalet";
 const APP_NAME = "Chalet";
 const DEVELOPER_NAME = "Victor Essang (Veespatial Global)";
 const PACKAGE_NAME = "com.victorgis.chalet";
-const SUPPORT_EMAIL = "contact@veespatial.com";
+const SUPPORT_EMAIL = "contact@precisegislabs.com";
 
 function Chalet() {
   const [formData, setFormData] = useState({

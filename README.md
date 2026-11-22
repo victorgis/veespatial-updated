@@ -7,7 +7,7 @@ I build useful digital products at the intersection of **AI, mobile/web engineer
 - Portfolio: [veespatial.com](https://veespatial.com)
 - GitHub: [@victorgis](https://github.com/victorgis)
 - LinkedIn: [linkedin.com/in/victoressang](https://linkedin.com/in/victoressang)
-- Email: [contact@veespatial.com](mailto:contact@veespatial.com), [essangvictor@gmail.com](mailto:essangvictor@gmail.com)
+- Email: [contact@precisegislabs.com](mailto:contact@precisegislabs.com), [essangvictor@gmail.com](mailto:essangvictor@gmail.com)
 
 ## Why Recruiters Reach Out
 
@@ -65,5 +65,5 @@ PostgreSQL, MongoDB, Firebase, Supabase, Docker, AWS, Git
 
 If you're hiring or looking for a technical partner to ship high-impact products, let's connect.
 
-- Email: [contact@veespatial.com](mailto:contact@veespatial.com), [essangvictor@gmail.com](mailto:essangvictor@gmail.com)
+- Email: [contact@precisegislabs.com](mailto:contact@precisegislabs.com), [essangvictor@gmail.com](mailto:essangvictor@gmail.com)
 - Portfolio: [veespatial.com](https://veespatial.com)
