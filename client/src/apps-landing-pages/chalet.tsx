@@ -27,7 +27,7 @@ import {
 const PLAY_STORE = "https://play.google.com/store/apps/details?id=com.victorgis.chalet";
 const BRAND_PAGE = "https://veespatial.com/chalet";
 const APP_NAME = "Chalet";
-const DEVELOPER_NAME = "Victor Essang (Veespatial Global)";
+const DEVELOPER_NAME = "Victor Essang (Precise GIS Limited)";
 const PACKAGE_NAME = "com.victorgis.chalet";
 const SUPPORT_EMAIL = "contact@precisegislabs.com";
 
